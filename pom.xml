@@ -1,0 +1,148 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>AutomationPoC</groupId>
+  <artifactId>AutomationPoC</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+  <dependency>				
+             <groupId>junit</groupId>								
+             <artifactId>junit</artifactId>								
+             <version>3.8.1</version>								
+             <scope>test</scope>								
+        </dependency>
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>3.13.0</version>
+        </dependency>
+        <dependency>				
+            <groupId>org.testng</groupId>								
+            <artifactId>testng</artifactId>								
+            <version>6.8</version>								
+            <scope>test</scope>							  			
+       </dependency>
+       <!-- https://mvnrepository.com/artifact/com.relevantcodes/extentreports -->
+	<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+<dependency>
+    <groupId>com.aventstack</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>3.1.5</version>
+    <scope>provided</scope>
+</dependency>
+<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+<dependency>
+    <groupId>commons-io</groupId>
+    <artifactId>commons-io</artifactId>
+    <version>2.6</version>
+</dependency>
+	
+<!-- https://mvnrepository.com/artifact/org.freemarker/freemarker -->
+<dependency>
+    <groupId>org.freemarker</groupId>
+    <artifactId>freemarker</artifactId>
+    <version>2.3.23</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/com.beust/jcommander -->
+<dependency>
+    <groupId>com.beust</groupId>
+    <artifactId>jcommander</artifactId>
+    <version>1.72</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple -->
+<dependency>
+    <groupId>com.googlecode.json-simple</groupId>
+    <artifactId>json-simple</artifactId>
+    <version>1.1.1</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
+<dependency>
+    <groupId>org.apache.logging.log4j</groupId>
+    <artifactId>log4j-core</artifactId>
+    <version>2.11.1</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api -->
+<dependency>
+    <groupId>org.apache.logging.log4j</groupId>
+    <artifactId>log4j-api</artifactId>
+    <version>2.11.1</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/log4j/log4j -->
+<dependency>
+    <groupId>log4j</groupId>
+    <artifactId>log4j</artifactId>
+    <version>1.2.17</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/log4j/apache-log4j-extras -->
+<dependency>
+    <groupId>log4j</groupId>
+    <artifactId>apache-log4j-extras</artifactId>
+    <version>1.1</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi</artifactId>
+    <version>3.17</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-excelant -->
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi-excelant</artifactId>
+    <version>3.17</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-examples -->
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi-examples</artifactId>
+    <version>3.17</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi-ooxml</artifactId>
+    <version>3.17</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml-schemas -->
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi-ooxml-schemas</artifactId>
+    <version>3.17</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.apache.xmlbeans/xmlbeans -->
+<dependency>
+    <groupId>org.apache.xmlbeans</groupId>
+    <artifactId>xmlbeans</artifactId>
+    <version>2.6.0</version>
+</dependency>
+
+
+    </dependencies>
+    <build>
+        <pluginManagement>
+          <plugins>            
+            <plugin>
+              <groupId>org.apache.maven.plugins</groupId>
+              <artifactId>maven-compilere-plugin</artifactId>
+              <version>2.3.2</version>
+              <configuration>
+              	<source>1.7</source>
+              	<target>1.7</target>
+              </configuration>
+            </plugin>
+             <plugin>
+              <groupId>org.apache.maven.plugins</groupId>
+              <artifactId>maven-surefile-plugin</artifactId>
+              <version>2.12</version>
+              <inherited>true</inherited>
+              <configuration>
+              <suiteXmlFiles>
+              	<suiteXmlFile>testng.xml</suiteXmlFile>
+              </suiteXmlFiles>      
+              </configuration>
+            </plugin>
+          </plugins>
+        </pluginManagement>
+      </build>
+</project>

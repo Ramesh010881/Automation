@@ -1,0 +1,1022 @@
+06:57:56.166 INFO  accelarators.Base -setup -BEFORE CLASS EXECUTION STARTED SUCCESSFULLY
+06:57:56.180 INFO  utilities.ConfigProperties -loadFrom -INTEND TO LOAD USER CONFIGURATION PARAMETERS FROM PROPERTIES FILE
+06:57:56.180 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+06:57:56.180 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+06:57:56.181 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+06:57:56.181 INFO  accelarators.Base -formatGiven -INTENDED TO CHECK IF THE FILE NAME HAS THE FILE EXTENSION
+06:57:56.181 INFO  accelarators.Base -formatGiven -FILE FORMAT IS PROVIDED WITH THE FILE NAME(config.properties)
+06:57:56.181 INFO  accelarators.Base -formatGiven -SUCCESSFULLY CHECKED IF THE FILE NAME HAS THE FILE EXTENSION
+06:57:56.183 INFO  accelarators.Base -getFileFormat -INTENDED TO RETRIEVE THE FORMAT OF THE FILE
+06:57:56.183 INFO  accelarators.Base -getFileFormat -SUCCESSFULLY GOT THE FILE FORMAT(.properties) FROM THE FILE NAME(config.properties)
+
+06:57:56.183 INFO  accelarators.Base -getFileFormat -SUCCESSFULLY RETRIEVED THE FORMAT OF THE FILE
+06:57:56.183 INFO  accelarators.Base -fileFormatIs -INTENDED TO CHECK IF THE FILE BELONGS TO THE GIVEN FORMAT
+06:57:56.183 INFO  accelarators.Base -fileFormatIs -EXPECTED AND ACTUAL FILE FORMATS ARE THE SAME
+06:57:56.183 INFO  accelarators.Base -fileFormatIs -SUCCESSFULLY CHECKED IF THE FILE BELONGS TO THE GIVEN FORMAT
+06:57:56.184 INFO  accelarators.Base -createFileInstance -INTENDED TO CREATE THE FILE INSTANCE
+06:57:56.184 INFO  accelarators.Base -createFileInstance -FILE INSTANCE CREATED
+06:57:56.184 INFO  accelarators.Base -createFileInstance -SUCCESSFULLY CREATED THE FILE INSTANCE
+06:57:56.184 INFO  accelarators.Base -readFile -INTENDED TO READ THE GIVEN FILE
+06:57:56.185 INFO  accelarators.Base -readFile -SUCCESSFULLY READ THE FILE(C:\workspace\AutomationPoC\src\test\resources\config.properties) SPECIFIED
+06:57:56.185 INFO  accelarators.Base -readFile -READING THE FILE IS SUCCESSFUL
+06:57:56.185 INFO  utilities.ConfigProperties -createPropertiesInstance -INTEND TO CREATE AN INSTANCE OF PROPERTIES
+06:57:56.185 INFO  utilities.ConfigProperties -createPropertiesInstance -AN INSTANCE OF PROPERTIES CLASS CREATED
+06:57:56.186 INFO  utilities.ConfigProperties -createPropertiesInstance -SUCCESSFULLY CREATED AN INSTANCE OF PROPERTIES
+06:57:56.186 INFO  utilities.ConfigProperties -loadProperties -INTEND TO LOAD PROPERTIES
+06:57:56.187 INFO  utilities.ConfigProperties -loadProperties -SUCCESSFULLY LOADED THE PROPERTY FILE
+06:57:56.187 INFO  utilities.ConfigProperties -loadProperties -SUCCESSFULLY LOADED PROPERTIES
+06:57:56.187 INFO  utilities.ConfigProperties -loadFrom -SUCCESSFULLY LOADED USER CONFIGURATION PARAMETERS FROM PROPERTY FILE(config.properties) UNDER THE LOCATION(C:\workspace\AutomationPoC\src\test\resources\)
+06:57:56.187 INFO  accelarators.Base -setup -creating folders for screen shots
+06:57:56.205 INFO  utilities.Report -initialize -INTEND TO CREATE AN INSTANCE OF EXTENT REPORT WITH NAME AND APPEND STATUS
+06:57:56.205 INFO  utilities.Report -initializeHTML -INTEND TO INITIALIZE AN HTML REPORT
+06:57:56.205 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+06:57:56.205 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+06:57:56.206 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+06:57:56.206 INFO  accelarators.Base -formatGiven -INTENDED TO CHECK IF THE FILE NAME HAS THE FILE EXTENSION
+06:57:56.206 INFO  accelarators.Base -formatGiven -FILE FORMAT IS PROVIDED WITH THE FILE NAME(LMA_TestExecution_Report.html)
+06:57:56.206 INFO  accelarators.Base -formatGiven -SUCCESSFULLY CHECKED IF THE FILE NAME HAS THE FILE EXTENSION
+06:57:56.206 INFO  accelarators.Base -getFileFormat -INTENDED TO RETRIEVE THE FORMAT OF THE FILE
+06:57:56.207 INFO  accelarators.Base -getFileFormat -SUCCESSFULLY GOT THE FILE FORMAT(.html) FROM THE FILE NAME(LMA_TestExecution_Report.html)
+
+06:57:56.208 INFO  accelarators.Base -getFileFormat -SUCCESSFULLY RETRIEVED THE FORMAT OF THE FILE
+06:57:56.208 INFO  accelarators.Base -fileFormatIs -INTENDED TO CHECK IF THE FILE BELONGS TO THE GIVEN FORMAT
+06:57:56.208 INFO  accelarators.Base -fileFormatIs -EXPECTED AND ACTUAL FILE FORMATS ARE THE SAME
+06:57:56.208 INFO  accelarators.Base -fileFormatIs -SUCCESSFULLY CHECKED IF THE FILE BELONGS TO THE GIVEN FORMAT
+06:57:56.208 INFO  utilities.Report -createInstanceOfHTMLReport -INTEND TO CREATE AN INSTANCE OF HTML REPORT WITH NAME
+06:57:56.294 INFO  utilities.Report -createInstanceOfHTMLReport -SUCCESSFULLY CREATED AN INSTANCE OF HTML REPORT WITH NAME(LMA_TestExecution_Report.html)
+06:57:56.294 INFO  utilities.Report -appendToExistingReport -INTED TO ADD THE CONTENTS TO EXTENT REPORT BASED ON THE APPEND STATUS
+06:57:56.294 INFO  utilities.Report -appendToExistingReport -CONTENTS ARE ADDED TO EXTENT REPORT BASED ON THE APPEND STATUS(false)
+06:57:56.295 INFO  utilities.Report -setHTMLReportName -INTEND TO SET A NAME FOR THE HTML REPORT 
+06:57:56.295 INFO  utilities.Report -setHTMLReportName -HTML REPORT NAME(Test Case Summary) WAS SET SUCCESSFULLY
+06:57:56.296 INFO  utilities.Report -setHTMLReportTheme -INTEND TO SET A THEME FOR THE HTML REPORT 
+06:57:56.296 INFO  utilities.Report -setHTMLReportTheme -HTML REPORT THEME WAS SET SUCCESSFULLY
+06:57:56.296 INFO  utilities.Report -initializeHTML -SUCCESSFULLY INITIALIZED AN HTML REPORT(LMA_TestExecution_Report.html)
+06:57:56.296 INFO  utilities.Report -createInstanceOfExtentReport -INTEND TO CREATE AN INSTANCE OF EXTENT REPORT
+06:57:56.303 INFO  utilities.Report -createInstanceOfExtentReport -SUCCESSFULLY CREATED AN INSTANCE OF EXTENT REPORT
+06:57:56.304 INFO  utilities.Report -attachHTMLReport -INTEND TO ATTACH HTML REPORT TO EXTENT REPORT
+06:57:56.418 INFO  utilities.Report -attachHTMLReport -SUCCESSFULLY ATTACHED HTML REPORT TO EXTENT REPORT
+06:57:56.419 INFO  utilities.Report -initialize -SUCCESSFULLY CREATED AN INSTANCE OF EXTENT REPORT WITH NAME(LMA_TestExecution_Report.html) AND APPEND STATUS(false)
+06:57:56.419 INFO  utilities.Report -recordSystemInfo -INTEND TO ADD SYSTEM INFORMATION IN EXTENT REPORT
+06:57:56.420 INFO  utilities.Report -recordSystemInfo -SUCCESSFULLY ADDED SYSTEM INFORMATION(Operating System : Windows 7 - 64 bit) IN EXTENT REPORT
+06:57:56.420 INFO  utilities.Report -recordSystemInfo -INTEND TO ADD SYSTEM INFORMATION IN EXTENT REPORT
+06:57:56.420 INFO  utilities.Report -recordSystemInfo -SUCCESSFULLY ADDED SYSTEM INFORMATION(Java : Java 1.8) IN EXTENT REPORT
+06:57:56.421 INFO  utilities.Report -recordSystemInfo -INTEND TO ADD SYSTEM INFORMATION IN EXTENT REPORT
+06:57:56.421 INFO  utilities.Report -recordSystemInfo -SUCCESSFULLY ADDED SYSTEM INFORMATION(Selenium Version : Selenium 3.3.4) IN EXTENT REPORT
+06:57:56.421 INFO  accelarators.Base -setup -BEFORE CLASS EXECUTED SUCCESSFULLY
+06:57:56.431 INFO  testScripts.LmaTestCase -AddCounterParty -METHOD(AddCounterParty) EXECUTION STARTED SUCCESSFULLY
+06:57:56.432 ERROR testScripts.LmaTestCase -AddCounterParty -null
+06:57:56.436 INFO  testScripts.LmaTestCase -afterExecutionOfEachTest -AFTER METHOD EXECUTION STARTED SUCCESSFULLY
+06:57:56.437 INFO  accelarators.ActionDriver -screenShot -METHOD(screenShot) EXECUTION STARTED SUCCESSFULLY
+06:57:56.440 ERROR testScripts.LmaTestCase -afterExecutionOfEachTest -null
+06:57:56.441 INFO  utilities.Report -logTestCaseStatus -INTEND TO LOG TEST CASE STATUS WITH DESCRIPTION IN EXTENT REPORT
+06:57:56.441 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+06:57:56.441 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+06:57:56.442 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+06:57:56.442 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+06:57:56.442 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+06:57:56.443 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+06:57:56.443 ERROR utilities.Report -logTestCaseStatus -UNABLE TO LOG THE TEST CASE STATUS(FAIL) WITH DESCRIPTION(<font color=red><b>After Method Is Not Successful</b></font><br />null<br />) IN EXTENT REPORT
+null
+06:57:56.446 INFO  accelarators.Base -close -Start of Executing AfterClass method name: close() 
+06:57:56.447 INFO  accelarators.Base -close -End of Executing after class stuff
+06:57:56.447 INFO  accelarators.Base -close -End of Executing AfterClass method name: close() 
+06:58:43.430 INFO  accelarators.Base -setup -BEFORE CLASS EXECUTION STARTED SUCCESSFULLY
+06:58:43.438 INFO  utilities.ConfigProperties -loadFrom -INTEND TO LOAD USER CONFIGURATION PARAMETERS FROM PROPERTIES FILE
+06:58:43.438 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+06:58:43.438 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+06:58:43.438 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+06:58:43.439 INFO  accelarators.Base -formatGiven -INTENDED TO CHECK IF THE FILE NAME HAS THE FILE EXTENSION
+06:58:43.439 INFO  accelarators.Base -formatGiven -FILE FORMAT IS PROVIDED WITH THE FILE NAME(config.properties)
+06:58:43.439 INFO  accelarators.Base -formatGiven -SUCCESSFULLY CHECKED IF THE FILE NAME HAS THE FILE EXTENSION
+06:58:43.439 INFO  accelarators.Base -getFileFormat -INTENDED TO RETRIEVE THE FORMAT OF THE FILE
+06:58:43.440 INFO  accelarators.Base -getFileFormat -SUCCESSFULLY GOT THE FILE FORMAT(.properties) FROM THE FILE NAME(config.properties)
+
+06:58:43.440 INFO  accelarators.Base -getFileFormat -SUCCESSFULLY RETRIEVED THE FORMAT OF THE FILE
+06:58:43.440 INFO  accelarators.Base -fileFormatIs -INTENDED TO CHECK IF THE FILE BELONGS TO THE GIVEN FORMAT
+06:58:43.440 INFO  accelarators.Base -fileFormatIs -EXPECTED AND ACTUAL FILE FORMATS ARE THE SAME
+06:58:43.441 INFO  accelarators.Base -fileFormatIs -SUCCESSFULLY CHECKED IF THE FILE BELONGS TO THE GIVEN FORMAT
+06:58:43.441 INFO  accelarators.Base -createFileInstance -INTENDED TO CREATE THE FILE INSTANCE
+06:58:43.441 INFO  accelarators.Base -createFileInstance -FILE INSTANCE CREATED
+06:58:43.441 INFO  accelarators.Base -createFileInstance -SUCCESSFULLY CREATED THE FILE INSTANCE
+06:58:43.441 INFO  accelarators.Base -readFile -INTENDED TO READ THE GIVEN FILE
+06:58:43.442 INFO  accelarators.Base -readFile -SUCCESSFULLY READ THE FILE(C:\workspace\AutomationPoC\src\test\resources\config.properties) SPECIFIED
+06:58:43.442 INFO  accelarators.Base -readFile -READING THE FILE IS SUCCESSFUL
+06:58:43.442 INFO  utilities.ConfigProperties -createPropertiesInstance -INTEND TO CREATE AN INSTANCE OF PROPERTIES
+06:58:43.442 INFO  utilities.ConfigProperties -createPropertiesInstance -AN INSTANCE OF PROPERTIES CLASS CREATED
+06:58:43.443 INFO  utilities.ConfigProperties -createPropertiesInstance -SUCCESSFULLY CREATED AN INSTANCE OF PROPERTIES
+06:58:43.443 INFO  utilities.ConfigProperties -loadProperties -INTEND TO LOAD PROPERTIES
+06:58:43.443 INFO  utilities.ConfigProperties -loadProperties -SUCCESSFULLY LOADED THE PROPERTY FILE
+06:58:43.443 INFO  utilities.ConfigProperties -loadProperties -SUCCESSFULLY LOADED PROPERTIES
+06:58:43.444 INFO  utilities.ConfigProperties -loadFrom -SUCCESSFULLY LOADED USER CONFIGURATION PARAMETERS FROM PROPERTY FILE(config.properties) UNDER THE LOCATION(C:\workspace\AutomationPoC\src\test\resources\)
+06:58:43.444 INFO  accelarators.Base -setup -creating folders for screen shots
+06:58:43.463 INFO  utilities.Report -initialize -INTEND TO CREATE AN INSTANCE OF EXTENT REPORT WITH NAME AND APPEND STATUS
+06:58:43.463 INFO  utilities.Report -initializeHTML -INTEND TO INITIALIZE AN HTML REPORT
+06:58:43.463 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+06:58:43.464 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+06:58:43.464 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+06:58:43.464 INFO  accelarators.Base -formatGiven -INTENDED TO CHECK IF THE FILE NAME HAS THE FILE EXTENSION
+06:58:43.464 INFO  accelarators.Base -formatGiven -FILE FORMAT IS PROVIDED WITH THE FILE NAME(LMA_TestExecution_Report.html)
+06:58:43.464 INFO  accelarators.Base -formatGiven -SUCCESSFULLY CHECKED IF THE FILE NAME HAS THE FILE EXTENSION
+06:58:43.465 INFO  accelarators.Base -getFileFormat -INTENDED TO RETRIEVE THE FORMAT OF THE FILE
+06:58:43.465 INFO  accelarators.Base -getFileFormat -SUCCESSFULLY GOT THE FILE FORMAT(.html) FROM THE FILE NAME(LMA_TestExecution_Report.html)
+
+06:58:43.465 INFO  accelarators.Base -getFileFormat -SUCCESSFULLY RETRIEVED THE FORMAT OF THE FILE
+06:58:43.465 INFO  accelarators.Base -fileFormatIs -INTENDED TO CHECK IF THE FILE BELONGS TO THE GIVEN FORMAT
+06:58:43.466 INFO  accelarators.Base -fileFormatIs -EXPECTED AND ACTUAL FILE FORMATS ARE THE SAME
+06:58:43.466 INFO  accelarators.Base -fileFormatIs -SUCCESSFULLY CHECKED IF THE FILE BELONGS TO THE GIVEN FORMAT
+06:58:43.466 INFO  utilities.Report -createInstanceOfHTMLReport -INTEND TO CREATE AN INSTANCE OF HTML REPORT WITH NAME
+06:58:43.543 INFO  utilities.Report -createInstanceOfHTMLReport -SUCCESSFULLY CREATED AN INSTANCE OF HTML REPORT WITH NAME(LMA_TestExecution_Report.html)
+06:58:43.543 INFO  utilities.Report -appendToExistingReport -INTED TO ADD THE CONTENTS TO EXTENT REPORT BASED ON THE APPEND STATUS
+06:58:43.543 INFO  utilities.Report -appendToExistingReport -CONTENTS ARE ADDED TO EXTENT REPORT BASED ON THE APPEND STATUS(false)
+06:58:43.543 INFO  utilities.Report -setHTMLReportName -INTEND TO SET A NAME FOR THE HTML REPORT 
+06:58:43.544 INFO  utilities.Report -setHTMLReportName -HTML REPORT NAME(Test Case Summary) WAS SET SUCCESSFULLY
+06:58:43.544 INFO  utilities.Report -setHTMLReportTheme -INTEND TO SET A THEME FOR THE HTML REPORT 
+06:58:43.545 INFO  utilities.Report -setHTMLReportTheme -HTML REPORT THEME WAS SET SUCCESSFULLY
+06:58:43.545 INFO  utilities.Report -initializeHTML -SUCCESSFULLY INITIALIZED AN HTML REPORT(LMA_TestExecution_Report.html)
+06:58:43.545 INFO  utilities.Report -createInstanceOfExtentReport -INTEND TO CREATE AN INSTANCE OF EXTENT REPORT
+06:58:43.551 INFO  utilities.Report -createInstanceOfExtentReport -SUCCESSFULLY CREATED AN INSTANCE OF EXTENT REPORT
+06:58:43.551 INFO  utilities.Report -attachHTMLReport -INTEND TO ATTACH HTML REPORT TO EXTENT REPORT
+06:58:43.662 INFO  utilities.Report -attachHTMLReport -SUCCESSFULLY ATTACHED HTML REPORT TO EXTENT REPORT
+06:58:43.662 INFO  utilities.Report -initialize -SUCCESSFULLY CREATED AN INSTANCE OF EXTENT REPORT WITH NAME(LMA_TestExecution_Report.html) AND APPEND STATUS(false)
+06:58:43.663 INFO  utilities.Report -recordSystemInfo -INTEND TO ADD SYSTEM INFORMATION IN EXTENT REPORT
+06:58:43.664 INFO  utilities.Report -recordSystemInfo -SUCCESSFULLY ADDED SYSTEM INFORMATION(Operating System : Windows 7 - 64 bit) IN EXTENT REPORT
+06:58:43.664 INFO  utilities.Report -recordSystemInfo -INTEND TO ADD SYSTEM INFORMATION IN EXTENT REPORT
+06:58:43.664 INFO  utilities.Report -recordSystemInfo -SUCCESSFULLY ADDED SYSTEM INFORMATION(Java : Java 1.8) IN EXTENT REPORT
+06:58:43.665 INFO  utilities.Report -recordSystemInfo -INTEND TO ADD SYSTEM INFORMATION IN EXTENT REPORT
+06:58:43.665 INFO  utilities.Report -recordSystemInfo -SUCCESSFULLY ADDED SYSTEM INFORMATION(Selenium Version : Selenium 3.3.4) IN EXTENT REPORT
+06:58:43.665 INFO  accelarators.Base -setup -BEFORE CLASS EXECUTED SUCCESSFULLY
+06:58:43.678 INFO  testScripts.LmaTestCase -AddCounterParty -METHOD(AddCounterParty) EXECUTION STARTED SUCCESSFULLY
+06:58:43.678 INFO  utilities.Report -makeTestCaseEntry -INTEND TO CREATE AN INSTANCE OF TEST CASE WITH NAME IN EXTENT REPORT
+06:58:43.678 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+06:58:43.679 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+06:58:43.679 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+06:58:43.683 INFO  utilities.Report -makeTestCaseEntry -SUCCESSFULY CREATED AN INSTANCE OF TEST CASE WITH NAME(LMA_POC_Automation) IN EXTENT REPORT
+06:58:43.683 INFO  utilities.Report -assignCategoryToTestCase -INTEND TO ASSIGN CATAGORY TO A TEST CASE IN EXTENT REPORT
+06:58:43.690 INFO  utilities.Report -assignCategoryToTestCase -SUCCESSFULY ASSIGNED THE CATAGORY(TC1) TO A TEST CASE IN EXTENT REPORT
+06:58:43.690 INFO  pageObjects.LmaWorkFlow -LaunchApplication -WORKFLOW(newTrackerListingProcess) EXECUTION STARTED SUCCESSFULLY
+06:58:43.724 INFO  pageObjects.LmaCommonPage -initiateBrowser -METHOD(initiateBrowser) EXECUTION STARTED SUCCESSFULLY
+06:58:43.815 ERROR pageObjects.LmaCommonPage -initiateBrowser -The driver executable does not exist: C:\workspace\AutomationPoC\Drivers\chromedriver.exe
+06:58:43.816 INFO  pageObjects.LmaCommonPage -initiateBrowser -METHOD(initiateBrowser) EXECUTED SUCCESSFULLY
+06:58:43.816 ERROR pageObjects.LmaWorkFlow -LaunchApplication -null
+06:58:43.817 INFO  utilities.Report -logTestCaseStatus -INTEND TO LOG TEST CASE STATUS WITH DESCRIPTION IN EXTENT REPORT
+06:58:43.817 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+06:58:43.817 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+06:58:43.817 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+06:58:43.818 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+06:58:43.818 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+06:58:43.818 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+06:58:43.834 INFO  utilities.Report -logTestCaseStatus -SUCCESSFULY LOGED THE STATUS(FAIL) WITH DESCRIPTION(<font color=red><b>IU Is Not logged in Successfully</b></font><br />null<br />) IN EXTENT REPORT
+06:58:43.835 ERROR testScripts.LmaTestCase -AddCounterParty -UNABLE TO INITIATE THE login PROCESS 
+null
+
+06:58:43.841 INFO  testScripts.LmaTestCase -afterExecutionOfEachTest -AFTER METHOD EXECUTION STARTED SUCCESSFULLY
+06:58:43.841 INFO  accelarators.ActionDriver -screenShot -METHOD(screenShot) EXECUTION STARTED SUCCESSFULLY
+06:58:43.842 ERROR testScripts.LmaTestCase -afterExecutionOfEachTest -null
+06:58:43.843 INFO  utilities.Report -logTestCaseStatus -INTEND TO LOG TEST CASE STATUS WITH DESCRIPTION IN EXTENT REPORT
+06:58:43.843 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+06:58:43.843 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+06:58:43.844 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+06:58:43.844 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+06:58:43.845 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+06:58:43.845 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+06:58:43.848 INFO  utilities.Report -logTestCaseStatus -SUCCESSFULY LOGED THE STATUS(FAIL) WITH DESCRIPTION(<font color=red><b>After Method Is Not Successful</b></font><br />null<br />) IN EXTENT REPORT
+06:58:43.852 INFO  accelarators.Base -close -Start of Executing AfterClass method name: close() 
+06:58:43.852 INFO  accelarators.Base -close -End of Executing after class stuff
+06:58:43.852 INFO  accelarators.Base -close -End of Executing AfterClass method name: close() 
+07:00:01.441 INFO  accelarators.Base -setup -BEFORE CLASS EXECUTION STARTED SUCCESSFULLY
+07:00:01.449 INFO  utilities.ConfigProperties -loadFrom -INTEND TO LOAD USER CONFIGURATION PARAMETERS FROM PROPERTIES FILE
+07:00:01.449 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:00:01.450 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:00:01.450 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:00:01.450 INFO  accelarators.Base -formatGiven -INTENDED TO CHECK IF THE FILE NAME HAS THE FILE EXTENSION
+07:00:01.450 INFO  accelarators.Base -formatGiven -FILE FORMAT IS PROVIDED WITH THE FILE NAME(config.properties)
+07:00:01.451 INFO  accelarators.Base -formatGiven -SUCCESSFULLY CHECKED IF THE FILE NAME HAS THE FILE EXTENSION
+07:00:01.451 INFO  accelarators.Base -getFileFormat -INTENDED TO RETRIEVE THE FORMAT OF THE FILE
+07:00:01.451 INFO  accelarators.Base -getFileFormat -SUCCESSFULLY GOT THE FILE FORMAT(.properties) FROM THE FILE NAME(config.properties)
+
+07:00:01.451 INFO  accelarators.Base -getFileFormat -SUCCESSFULLY RETRIEVED THE FORMAT OF THE FILE
+07:00:01.452 INFO  accelarators.Base -fileFormatIs -INTENDED TO CHECK IF THE FILE BELONGS TO THE GIVEN FORMAT
+07:00:01.452 INFO  accelarators.Base -fileFormatIs -EXPECTED AND ACTUAL FILE FORMATS ARE THE SAME
+07:00:01.452 INFO  accelarators.Base -fileFormatIs -SUCCESSFULLY CHECKED IF THE FILE BELONGS TO THE GIVEN FORMAT
+07:00:01.452 INFO  accelarators.Base -createFileInstance -INTENDED TO CREATE THE FILE INSTANCE
+07:00:01.452 INFO  accelarators.Base -createFileInstance -FILE INSTANCE CREATED
+07:00:01.453 INFO  accelarators.Base -createFileInstance -SUCCESSFULLY CREATED THE FILE INSTANCE
+07:00:01.453 INFO  accelarators.Base -readFile -INTENDED TO READ THE GIVEN FILE
+07:00:01.453 INFO  accelarators.Base -readFile -SUCCESSFULLY READ THE FILE(C:\workspace\AutomationPoC\src\test\resources\config.properties) SPECIFIED
+07:00:01.454 INFO  accelarators.Base -readFile -READING THE FILE IS SUCCESSFUL
+07:00:01.454 INFO  utilities.ConfigProperties -createPropertiesInstance -INTEND TO CREATE AN INSTANCE OF PROPERTIES
+07:00:01.454 INFO  utilities.ConfigProperties -createPropertiesInstance -AN INSTANCE OF PROPERTIES CLASS CREATED
+07:00:01.454 INFO  utilities.ConfigProperties -createPropertiesInstance -SUCCESSFULLY CREATED AN INSTANCE OF PROPERTIES
+07:00:01.455 INFO  utilities.ConfigProperties -loadProperties -INTEND TO LOAD PROPERTIES
+07:00:01.455 INFO  utilities.ConfigProperties -loadProperties -SUCCESSFULLY LOADED THE PROPERTY FILE
+07:00:01.455 INFO  utilities.ConfigProperties -loadProperties -SUCCESSFULLY LOADED PROPERTIES
+07:00:01.456 INFO  utilities.ConfigProperties -loadFrom -SUCCESSFULLY LOADED USER CONFIGURATION PARAMETERS FROM PROPERTY FILE(config.properties) UNDER THE LOCATION(C:\workspace\AutomationPoC\src\test\resources\)
+07:00:01.456 INFO  accelarators.Base -setup -creating folders for screen shots
+07:00:01.478 INFO  utilities.Report -initialize -INTEND TO CREATE AN INSTANCE OF EXTENT REPORT WITH NAME AND APPEND STATUS
+07:00:01.478 INFO  utilities.Report -initializeHTML -INTEND TO INITIALIZE AN HTML REPORT
+07:00:01.479 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:00:01.479 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:00:01.479 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:00:01.479 INFO  accelarators.Base -formatGiven -INTENDED TO CHECK IF THE FILE NAME HAS THE FILE EXTENSION
+07:00:01.479 INFO  accelarators.Base -formatGiven -FILE FORMAT IS PROVIDED WITH THE FILE NAME(LMA_TestExecution_Report.html)
+07:00:01.480 INFO  accelarators.Base -formatGiven -SUCCESSFULLY CHECKED IF THE FILE NAME HAS THE FILE EXTENSION
+07:00:01.480 INFO  accelarators.Base -getFileFormat -INTENDED TO RETRIEVE THE FORMAT OF THE FILE
+07:00:01.480 INFO  accelarators.Base -getFileFormat -SUCCESSFULLY GOT THE FILE FORMAT(.html) FROM THE FILE NAME(LMA_TestExecution_Report.html)
+
+07:00:01.480 INFO  accelarators.Base -getFileFormat -SUCCESSFULLY RETRIEVED THE FORMAT OF THE FILE
+07:00:01.481 INFO  accelarators.Base -fileFormatIs -INTENDED TO CHECK IF THE FILE BELONGS TO THE GIVEN FORMAT
+07:00:01.481 INFO  accelarators.Base -fileFormatIs -EXPECTED AND ACTUAL FILE FORMATS ARE THE SAME
+07:00:01.481 INFO  accelarators.Base -fileFormatIs -SUCCESSFULLY CHECKED IF THE FILE BELONGS TO THE GIVEN FORMAT
+07:00:01.481 INFO  utilities.Report -createInstanceOfHTMLReport -INTEND TO CREATE AN INSTANCE OF HTML REPORT WITH NAME
+07:00:01.570 INFO  utilities.Report -createInstanceOfHTMLReport -SUCCESSFULLY CREATED AN INSTANCE OF HTML REPORT WITH NAME(LMA_TestExecution_Report.html)
+07:00:01.571 INFO  utilities.Report -appendToExistingReport -INTED TO ADD THE CONTENTS TO EXTENT REPORT BASED ON THE APPEND STATUS
+07:00:01.571 INFO  utilities.Report -appendToExistingReport -CONTENTS ARE ADDED TO EXTENT REPORT BASED ON THE APPEND STATUS(false)
+07:00:01.571 INFO  utilities.Report -setHTMLReportName -INTEND TO SET A NAME FOR THE HTML REPORT 
+07:00:01.571 INFO  utilities.Report -setHTMLReportName -HTML REPORT NAME(Test Case Summary) WAS SET SUCCESSFULLY
+07:00:01.573 INFO  utilities.Report -setHTMLReportTheme -INTEND TO SET A THEME FOR THE HTML REPORT 
+07:00:01.573 INFO  utilities.Report -setHTMLReportTheme -HTML REPORT THEME WAS SET SUCCESSFULLY
+07:00:01.573 INFO  utilities.Report -initializeHTML -SUCCESSFULLY INITIALIZED AN HTML REPORT(LMA_TestExecution_Report.html)
+07:00:01.574 INFO  utilities.Report -createInstanceOfExtentReport -INTEND TO CREATE AN INSTANCE OF EXTENT REPORT
+07:00:01.583 INFO  utilities.Report -createInstanceOfExtentReport -SUCCESSFULLY CREATED AN INSTANCE OF EXTENT REPORT
+07:00:01.583 INFO  utilities.Report -attachHTMLReport -INTEND TO ATTACH HTML REPORT TO EXTENT REPORT
+07:00:01.755 INFO  utilities.Report -attachHTMLReport -SUCCESSFULLY ATTACHED HTML REPORT TO EXTENT REPORT
+07:00:01.755 INFO  utilities.Report -initialize -SUCCESSFULLY CREATED AN INSTANCE OF EXTENT REPORT WITH NAME(LMA_TestExecution_Report.html) AND APPEND STATUS(false)
+07:00:01.756 INFO  utilities.Report -recordSystemInfo -INTEND TO ADD SYSTEM INFORMATION IN EXTENT REPORT
+07:00:01.757 INFO  utilities.Report -recordSystemInfo -SUCCESSFULLY ADDED SYSTEM INFORMATION(Operating System : Windows 7 - 64 bit) IN EXTENT REPORT
+07:00:01.757 INFO  utilities.Report -recordSystemInfo -INTEND TO ADD SYSTEM INFORMATION IN EXTENT REPORT
+07:00:01.757 INFO  utilities.Report -recordSystemInfo -SUCCESSFULLY ADDED SYSTEM INFORMATION(Java : Java 1.8) IN EXTENT REPORT
+07:00:01.758 INFO  utilities.Report -recordSystemInfo -INTEND TO ADD SYSTEM INFORMATION IN EXTENT REPORT
+07:00:01.758 INFO  utilities.Report -recordSystemInfo -SUCCESSFULLY ADDED SYSTEM INFORMATION(Selenium Version : Selenium 3.3.4) IN EXTENT REPORT
+07:00:01.758 INFO  accelarators.Base -setup -BEFORE CLASS EXECUTED SUCCESSFULLY
+07:00:01.776 INFO  testScripts.LmaTestCase -AddCounterParty -METHOD(AddCounterParty) EXECUTION STARTED SUCCESSFULLY
+07:00:01.776 INFO  utilities.Report -makeTestCaseEntry -INTEND TO CREATE AN INSTANCE OF TEST CASE WITH NAME IN EXTENT REPORT
+07:00:01.777 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:00:01.777 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:00:01.777 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:00:01.783 INFO  utilities.Report -makeTestCaseEntry -SUCCESSFULY CREATED AN INSTANCE OF TEST CASE WITH NAME(LMA_POC_Automation) IN EXTENT REPORT
+07:00:01.783 INFO  utilities.Report -assignCategoryToTestCase -INTEND TO ASSIGN CATAGORY TO A TEST CASE IN EXTENT REPORT
+07:00:01.792 INFO  utilities.Report -assignCategoryToTestCase -SUCCESSFULY ASSIGNED THE CATAGORY(TC1) TO A TEST CASE IN EXTENT REPORT
+07:00:01.793 INFO  pageObjects.LmaWorkFlow -LaunchApplication -WORKFLOW(newTrackerListingProcess) EXECUTION STARTED SUCCESSFULLY
+07:00:01.839 INFO  pageObjects.LmaCommonPage -initiateBrowser -METHOD(initiateBrowser) EXECUTION STARTED SUCCESSFULLY
+07:00:01.945 ERROR pageObjects.LmaCommonPage -initiateBrowser -The driver executable does not exist: C:\workspace\AutomationPoC\Drivers\chromedriver.exe
+07:00:01.945 INFO  pageObjects.LmaCommonPage -initiateBrowser -METHOD(initiateBrowser) EXECUTED SUCCESSFULLY
+07:00:01.946 ERROR pageObjects.LmaWorkFlow -LaunchApplication -null
+07:00:01.946 INFO  utilities.Report -logTestCaseStatus -INTEND TO LOG TEST CASE STATUS WITH DESCRIPTION IN EXTENT REPORT
+07:00:01.947 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:00:01.947 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:00:01.947 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:00:01.948 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:00:01.948 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:00:01.948 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:00:01.963 INFO  utilities.Report -logTestCaseStatus -SUCCESSFULY LOGED THE STATUS(FAIL) WITH DESCRIPTION(<font color=red><b>IU Is Not logged in Successfully</b></font><br />null<br />) IN EXTENT REPORT
+07:00:01.964 ERROR testScripts.LmaTestCase -AddCounterParty -UNABLE TO INITIATE THE login PROCESS 
+null
+
+07:00:01.969 INFO  testScripts.LmaTestCase -afterExecutionOfEachTest -AFTER METHOD EXECUTION STARTED SUCCESSFULLY
+07:00:01.970 INFO  accelarators.ActionDriver -screenShot -METHOD(screenShot) EXECUTION STARTED SUCCESSFULLY
+07:00:01.970 ERROR testScripts.LmaTestCase -afterExecutionOfEachTest -null
+07:00:01.972 INFO  utilities.Report -logTestCaseStatus -INTEND TO LOG TEST CASE STATUS WITH DESCRIPTION IN EXTENT REPORT
+07:00:01.972 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:00:01.972 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:00:01.972 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:00:01.972 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:00:01.972 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:00:01.973 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:00:01.975 INFO  utilities.Report -logTestCaseStatus -SUCCESSFULY LOGED THE STATUS(FAIL) WITH DESCRIPTION(<font color=red><b>After Method Is Not Successful</b></font><br />null<br />) IN EXTENT REPORT
+07:00:01.980 INFO  accelarators.Base -close -Start of Executing AfterClass method name: close() 
+07:00:01.980 INFO  accelarators.Base -close -End of Executing after class stuff
+07:00:01.980 INFO  accelarators.Base -close -End of Executing AfterClass method name: close() 
+07:00:30.831 INFO  accelarators.Base -setup -BEFORE CLASS EXECUTION STARTED SUCCESSFULLY
+07:00:30.839 INFO  utilities.ConfigProperties -loadFrom -INTEND TO LOAD USER CONFIGURATION PARAMETERS FROM PROPERTIES FILE
+07:00:30.839 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:00:30.840 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:00:30.840 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:00:30.840 INFO  accelarators.Base -formatGiven -INTENDED TO CHECK IF THE FILE NAME HAS THE FILE EXTENSION
+07:00:30.841 INFO  accelarators.Base -formatGiven -FILE FORMAT IS PROVIDED WITH THE FILE NAME(config.properties)
+07:00:30.841 INFO  accelarators.Base -formatGiven -SUCCESSFULLY CHECKED IF THE FILE NAME HAS THE FILE EXTENSION
+07:00:30.841 INFO  accelarators.Base -getFileFormat -INTENDED TO RETRIEVE THE FORMAT OF THE FILE
+07:00:30.841 INFO  accelarators.Base -getFileFormat -SUCCESSFULLY GOT THE FILE FORMAT(.properties) FROM THE FILE NAME(config.properties)
+
+07:00:30.841 INFO  accelarators.Base -getFileFormat -SUCCESSFULLY RETRIEVED THE FORMAT OF THE FILE
+07:00:30.842 INFO  accelarators.Base -fileFormatIs -INTENDED TO CHECK IF THE FILE BELONGS TO THE GIVEN FORMAT
+07:00:30.842 INFO  accelarators.Base -fileFormatIs -EXPECTED AND ACTUAL FILE FORMATS ARE THE SAME
+07:00:30.842 INFO  accelarators.Base -fileFormatIs -SUCCESSFULLY CHECKED IF THE FILE BELONGS TO THE GIVEN FORMAT
+07:00:30.842 INFO  accelarators.Base -createFileInstance -INTENDED TO CREATE THE FILE INSTANCE
+07:00:30.842 INFO  accelarators.Base -createFileInstance -FILE INSTANCE CREATED
+07:00:30.842 INFO  accelarators.Base -createFileInstance -SUCCESSFULLY CREATED THE FILE INSTANCE
+07:00:30.843 INFO  accelarators.Base -readFile -INTENDED TO READ THE GIVEN FILE
+07:00:30.843 INFO  accelarators.Base -readFile -SUCCESSFULLY READ THE FILE(C:\workspace\AutomationPoC\src\test\resources\config.properties) SPECIFIED
+07:00:30.843 INFO  accelarators.Base -readFile -READING THE FILE IS SUCCESSFUL
+07:00:30.843 INFO  utilities.ConfigProperties -createPropertiesInstance -INTEND TO CREATE AN INSTANCE OF PROPERTIES
+07:00:30.844 INFO  utilities.ConfigProperties -createPropertiesInstance -AN INSTANCE OF PROPERTIES CLASS CREATED
+07:00:30.844 INFO  utilities.ConfigProperties -createPropertiesInstance -SUCCESSFULLY CREATED AN INSTANCE OF PROPERTIES
+07:00:30.844 INFO  utilities.ConfigProperties -loadProperties -INTEND TO LOAD PROPERTIES
+07:00:30.844 INFO  utilities.ConfigProperties -loadProperties -SUCCESSFULLY LOADED THE PROPERTY FILE
+07:00:30.845 INFO  utilities.ConfigProperties -loadProperties -SUCCESSFULLY LOADED PROPERTIES
+07:00:30.845 INFO  utilities.ConfigProperties -loadFrom -SUCCESSFULLY LOADED USER CONFIGURATION PARAMETERS FROM PROPERTY FILE(config.properties) UNDER THE LOCATION(C:\workspace\AutomationPoC\src\test\resources\)
+07:00:30.845 INFO  accelarators.Base -setup -creating folders for screen shots
+07:00:30.860 INFO  utilities.Report -initialize -INTEND TO CREATE AN INSTANCE OF EXTENT REPORT WITH NAME AND APPEND STATUS
+07:00:30.860 INFO  utilities.Report -initializeHTML -INTEND TO INITIALIZE AN HTML REPORT
+07:00:30.860 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:00:30.861 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:00:30.861 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:00:30.861 INFO  accelarators.Base -formatGiven -INTENDED TO CHECK IF THE FILE NAME HAS THE FILE EXTENSION
+07:00:30.861 INFO  accelarators.Base -formatGiven -FILE FORMAT IS PROVIDED WITH THE FILE NAME(LMA_TestExecution_Report.html)
+07:00:30.861 INFO  accelarators.Base -formatGiven -SUCCESSFULLY CHECKED IF THE FILE NAME HAS THE FILE EXTENSION
+07:00:30.861 INFO  accelarators.Base -getFileFormat -INTENDED TO RETRIEVE THE FORMAT OF THE FILE
+07:00:30.861 INFO  accelarators.Base -getFileFormat -SUCCESSFULLY GOT THE FILE FORMAT(.html) FROM THE FILE NAME(LMA_TestExecution_Report.html)
+
+07:00:30.863 INFO  accelarators.Base -getFileFormat -SUCCESSFULLY RETRIEVED THE FORMAT OF THE FILE
+07:00:30.863 INFO  accelarators.Base -fileFormatIs -INTENDED TO CHECK IF THE FILE BELONGS TO THE GIVEN FORMAT
+07:00:30.863 INFO  accelarators.Base -fileFormatIs -EXPECTED AND ACTUAL FILE FORMATS ARE THE SAME
+07:00:30.863 INFO  accelarators.Base -fileFormatIs -SUCCESSFULLY CHECKED IF THE FILE BELONGS TO THE GIVEN FORMAT
+07:00:30.863 INFO  utilities.Report -createInstanceOfHTMLReport -INTEND TO CREATE AN INSTANCE OF HTML REPORT WITH NAME
+07:00:30.925 INFO  utilities.Report -createInstanceOfHTMLReport -SUCCESSFULLY CREATED AN INSTANCE OF HTML REPORT WITH NAME(LMA_TestExecution_Report.html)
+07:00:30.925 INFO  utilities.Report -appendToExistingReport -INTED TO ADD THE CONTENTS TO EXTENT REPORT BASED ON THE APPEND STATUS
+07:00:30.926 INFO  utilities.Report -appendToExistingReport -CONTENTS ARE ADDED TO EXTENT REPORT BASED ON THE APPEND STATUS(false)
+07:00:30.926 INFO  utilities.Report -setHTMLReportName -INTEND TO SET A NAME FOR THE HTML REPORT 
+07:00:30.926 INFO  utilities.Report -setHTMLReportName -HTML REPORT NAME(Test Case Summary) WAS SET SUCCESSFULLY
+07:00:30.927 INFO  utilities.Report -setHTMLReportTheme -INTEND TO SET A THEME FOR THE HTML REPORT 
+07:00:30.927 INFO  utilities.Report -setHTMLReportTheme -HTML REPORT THEME WAS SET SUCCESSFULLY
+07:00:30.927 INFO  utilities.Report -initializeHTML -SUCCESSFULLY INITIALIZED AN HTML REPORT(LMA_TestExecution_Report.html)
+07:00:30.927 INFO  utilities.Report -createInstanceOfExtentReport -INTEND TO CREATE AN INSTANCE OF EXTENT REPORT
+07:00:30.933 INFO  utilities.Report -createInstanceOfExtentReport -SUCCESSFULLY CREATED AN INSTANCE OF EXTENT REPORT
+07:00:30.933 INFO  utilities.Report -attachHTMLReport -INTEND TO ATTACH HTML REPORT TO EXTENT REPORT
+07:00:31.046 INFO  utilities.Report -attachHTMLReport -SUCCESSFULLY ATTACHED HTML REPORT TO EXTENT REPORT
+07:00:31.046 INFO  utilities.Report -initialize -SUCCESSFULLY CREATED AN INSTANCE OF EXTENT REPORT WITH NAME(LMA_TestExecution_Report.html) AND APPEND STATUS(false)
+07:00:31.046 INFO  utilities.Report -recordSystemInfo -INTEND TO ADD SYSTEM INFORMATION IN EXTENT REPORT
+07:00:31.047 INFO  utilities.Report -recordSystemInfo -SUCCESSFULLY ADDED SYSTEM INFORMATION(Operating System : Windows 7 - 64 bit) IN EXTENT REPORT
+07:00:31.047 INFO  utilities.Report -recordSystemInfo -INTEND TO ADD SYSTEM INFORMATION IN EXTENT REPORT
+07:00:31.048 INFO  utilities.Report -recordSystemInfo -SUCCESSFULLY ADDED SYSTEM INFORMATION(Java : Java 1.8) IN EXTENT REPORT
+07:00:31.048 INFO  utilities.Report -recordSystemInfo -INTEND TO ADD SYSTEM INFORMATION IN EXTENT REPORT
+07:00:31.048 INFO  utilities.Report -recordSystemInfo -SUCCESSFULLY ADDED SYSTEM INFORMATION(Selenium Version : Selenium 3.3.4) IN EXTENT REPORT
+07:00:31.048 INFO  accelarators.Base -setup -BEFORE CLASS EXECUTED SUCCESSFULLY
+07:00:31.060 INFO  testScripts.LmaTestCase -AddCounterParty -METHOD(AddCounterParty) EXECUTION STARTED SUCCESSFULLY
+07:00:31.060 INFO  utilities.Report -makeTestCaseEntry -INTEND TO CREATE AN INSTANCE OF TEST CASE WITH NAME IN EXTENT REPORT
+07:00:31.060 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:00:31.061 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:00:31.061 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:00:31.064 INFO  utilities.Report -makeTestCaseEntry -SUCCESSFULY CREATED AN INSTANCE OF TEST CASE WITH NAME(LMA_POC_Automation) IN EXTENT REPORT
+07:00:31.064 INFO  utilities.Report -assignCategoryToTestCase -INTEND TO ASSIGN CATAGORY TO A TEST CASE IN EXTENT REPORT
+07:00:31.071 INFO  utilities.Report -assignCategoryToTestCase -SUCCESSFULY ASSIGNED THE CATAGORY(TC1) TO A TEST CASE IN EXTENT REPORT
+07:00:31.071 INFO  pageObjects.LmaWorkFlow -LaunchApplication -WORKFLOW(newTrackerListingProcess) EXECUTION STARTED SUCCESSFULLY
+07:00:31.098 INFO  pageObjects.LmaCommonPage -initiateBrowser -METHOD(initiateBrowser) EXECUTION STARTED SUCCESSFULLY
+07:00:31.168 ERROR pageObjects.LmaCommonPage -initiateBrowser -The driver executable does not exist: C:\workspace\AutomationPoC\Drivers\chromedriver.exe
+07:00:31.169 INFO  pageObjects.LmaCommonPage -initiateBrowser -METHOD(initiateBrowser) EXECUTED SUCCESSFULLY
+07:00:31.169 ERROR pageObjects.LmaWorkFlow -LaunchApplication -null
+07:00:31.169 INFO  utilities.Report -logTestCaseStatus -INTEND TO LOG TEST CASE STATUS WITH DESCRIPTION IN EXTENT REPORT
+07:00:31.169 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:00:31.170 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:00:31.170 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:00:31.170 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:00:31.170 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:00:31.170 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:00:31.180 INFO  utilities.Report -logTestCaseStatus -SUCCESSFULY LOGED THE STATUS(FAIL) WITH DESCRIPTION(<font color=red><b>IU Is Not logged in Successfully</b></font><br />null<br />) IN EXTENT REPORT
+07:00:31.181 ERROR testScripts.LmaTestCase -AddCounterParty -UNABLE TO INITIATE THE login PROCESS 
+null
+
+07:00:31.184 INFO  testScripts.LmaTestCase -afterExecutionOfEachTest -AFTER METHOD EXECUTION STARTED SUCCESSFULLY
+07:00:31.185 INFO  accelarators.ActionDriver -screenShot -METHOD(screenShot) EXECUTION STARTED SUCCESSFULLY
+07:00:31.185 ERROR testScripts.LmaTestCase -afterExecutionOfEachTest -null
+07:00:31.185 INFO  utilities.Report -logTestCaseStatus -INTEND TO LOG TEST CASE STATUS WITH DESCRIPTION IN EXTENT REPORT
+07:00:31.186 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:00:31.186 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:00:31.186 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:00:31.186 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:00:31.187 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:00:31.187 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:00:31.189 INFO  utilities.Report -logTestCaseStatus -SUCCESSFULY LOGED THE STATUS(FAIL) WITH DESCRIPTION(<font color=red><b>After Method Is Not Successful</b></font><br />null<br />) IN EXTENT REPORT
+07:00:31.192 INFO  accelarators.Base -close -Start of Executing AfterClass method name: close() 
+07:00:31.193 INFO  accelarators.Base -close -End of Executing after class stuff
+07:00:31.193 INFO  accelarators.Base -close -End of Executing AfterClass method name: close() 
+07:02:05.787 INFO  accelarators.Base -setup -BEFORE CLASS EXECUTION STARTED SUCCESSFULLY
+07:02:05.793 INFO  utilities.ConfigProperties -loadFrom -INTEND TO LOAD USER CONFIGURATION PARAMETERS FROM PROPERTIES FILE
+07:02:05.793 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:02:05.793 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:02:05.793 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:02:05.794 INFO  accelarators.Base -formatGiven -INTENDED TO CHECK IF THE FILE NAME HAS THE FILE EXTENSION
+07:02:05.794 INFO  accelarators.Base -formatGiven -FILE FORMAT IS PROVIDED WITH THE FILE NAME(config.properties)
+07:02:05.794 INFO  accelarators.Base -formatGiven -SUCCESSFULLY CHECKED IF THE FILE NAME HAS THE FILE EXTENSION
+07:02:05.794 INFO  accelarators.Base -getFileFormat -INTENDED TO RETRIEVE THE FORMAT OF THE FILE
+07:02:05.794 INFO  accelarators.Base -getFileFormat -SUCCESSFULLY GOT THE FILE FORMAT(.properties) FROM THE FILE NAME(config.properties)
+
+07:02:05.795 INFO  accelarators.Base -getFileFormat -SUCCESSFULLY RETRIEVED THE FORMAT OF THE FILE
+07:02:05.795 INFO  accelarators.Base -fileFormatIs -INTENDED TO CHECK IF THE FILE BELONGS TO THE GIVEN FORMAT
+07:02:05.795 INFO  accelarators.Base -fileFormatIs -EXPECTED AND ACTUAL FILE FORMATS ARE THE SAME
+07:02:05.795 INFO  accelarators.Base -fileFormatIs -SUCCESSFULLY CHECKED IF THE FILE BELONGS TO THE GIVEN FORMAT
+07:02:05.795 INFO  accelarators.Base -createFileInstance -INTENDED TO CREATE THE FILE INSTANCE
+07:02:05.795 INFO  accelarators.Base -createFileInstance -FILE INSTANCE CREATED
+07:02:05.796 INFO  accelarators.Base -createFileInstance -SUCCESSFULLY CREATED THE FILE INSTANCE
+07:02:05.796 INFO  accelarators.Base -readFile -INTENDED TO READ THE GIVEN FILE
+07:02:05.796 INFO  accelarators.Base -readFile -SUCCESSFULLY READ THE FILE(C:\workspace\AutomationPoC\src\test\resources\config.properties) SPECIFIED
+07:02:05.796 INFO  accelarators.Base -readFile -READING THE FILE IS SUCCESSFUL
+07:02:05.796 INFO  utilities.ConfigProperties -createPropertiesInstance -INTEND TO CREATE AN INSTANCE OF PROPERTIES
+07:02:05.796 INFO  utilities.ConfigProperties -createPropertiesInstance -AN INSTANCE OF PROPERTIES CLASS CREATED
+07:02:05.796 INFO  utilities.ConfigProperties -createPropertiesInstance -SUCCESSFULLY CREATED AN INSTANCE OF PROPERTIES
+07:02:05.796 INFO  utilities.ConfigProperties -loadProperties -INTEND TO LOAD PROPERTIES
+07:02:05.797 INFO  utilities.ConfigProperties -loadProperties -SUCCESSFULLY LOADED THE PROPERTY FILE
+07:02:05.797 INFO  utilities.ConfigProperties -loadProperties -SUCCESSFULLY LOADED PROPERTIES
+07:02:05.797 INFO  utilities.ConfigProperties -loadFrom -SUCCESSFULLY LOADED USER CONFIGURATION PARAMETERS FROM PROPERTY FILE(config.properties) UNDER THE LOCATION(C:\workspace\AutomationPoC\src\test\resources\)
+07:02:05.797 INFO  accelarators.Base -setup -creating folders for screen shots
+07:02:05.813 INFO  utilities.Report -initialize -INTEND TO CREATE AN INSTANCE OF EXTENT REPORT WITH NAME AND APPEND STATUS
+07:02:05.813 INFO  utilities.Report -initializeHTML -INTEND TO INITIALIZE AN HTML REPORT
+07:02:05.813 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:02:05.814 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:02:05.814 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:02:05.814 INFO  accelarators.Base -formatGiven -INTENDED TO CHECK IF THE FILE NAME HAS THE FILE EXTENSION
+07:02:05.814 INFO  accelarators.Base -formatGiven -FILE FORMAT IS PROVIDED WITH THE FILE NAME(LMA_TestExecution_Report.html)
+07:02:05.814 INFO  accelarators.Base -formatGiven -SUCCESSFULLY CHECKED IF THE FILE NAME HAS THE FILE EXTENSION
+07:02:05.814 INFO  accelarators.Base -getFileFormat -INTENDED TO RETRIEVE THE FORMAT OF THE FILE
+07:02:05.815 INFO  accelarators.Base -getFileFormat -SUCCESSFULLY GOT THE FILE FORMAT(.html) FROM THE FILE NAME(LMA_TestExecution_Report.html)
+
+07:02:05.816 INFO  accelarators.Base -getFileFormat -SUCCESSFULLY RETRIEVED THE FORMAT OF THE FILE
+07:02:05.816 INFO  accelarators.Base -fileFormatIs -INTENDED TO CHECK IF THE FILE BELONGS TO THE GIVEN FORMAT
+07:02:05.816 INFO  accelarators.Base -fileFormatIs -EXPECTED AND ACTUAL FILE FORMATS ARE THE SAME
+07:02:05.816 INFO  accelarators.Base -fileFormatIs -SUCCESSFULLY CHECKED IF THE FILE BELONGS TO THE GIVEN FORMAT
+07:02:05.816 INFO  utilities.Report -createInstanceOfHTMLReport -INTEND TO CREATE AN INSTANCE OF HTML REPORT WITH NAME
+07:02:05.883 INFO  utilities.Report -createInstanceOfHTMLReport -SUCCESSFULLY CREATED AN INSTANCE OF HTML REPORT WITH NAME(LMA_TestExecution_Report.html)
+07:02:05.883 INFO  utilities.Report -appendToExistingReport -INTED TO ADD THE CONTENTS TO EXTENT REPORT BASED ON THE APPEND STATUS
+07:02:05.883 INFO  utilities.Report -appendToExistingReport -CONTENTS ARE ADDED TO EXTENT REPORT BASED ON THE APPEND STATUS(false)
+07:02:05.883 INFO  utilities.Report -setHTMLReportName -INTEND TO SET A NAME FOR THE HTML REPORT 
+07:02:05.883 INFO  utilities.Report -setHTMLReportName -HTML REPORT NAME(Test Case Summary) WAS SET SUCCESSFULLY
+07:02:05.884 INFO  utilities.Report -setHTMLReportTheme -INTEND TO SET A THEME FOR THE HTML REPORT 
+07:02:05.884 INFO  utilities.Report -setHTMLReportTheme -HTML REPORT THEME WAS SET SUCCESSFULLY
+07:02:05.884 INFO  utilities.Report -initializeHTML -SUCCESSFULLY INITIALIZED AN HTML REPORT(LMA_TestExecution_Report.html)
+07:02:05.885 INFO  utilities.Report -createInstanceOfExtentReport -INTEND TO CREATE AN INSTANCE OF EXTENT REPORT
+07:02:05.890 INFO  utilities.Report -createInstanceOfExtentReport -SUCCESSFULLY CREATED AN INSTANCE OF EXTENT REPORT
+07:02:05.890 INFO  utilities.Report -attachHTMLReport -INTEND TO ATTACH HTML REPORT TO EXTENT REPORT
+07:02:06.005 INFO  utilities.Report -attachHTMLReport -SUCCESSFULLY ATTACHED HTML REPORT TO EXTENT REPORT
+07:02:06.005 INFO  utilities.Report -initialize -SUCCESSFULLY CREATED AN INSTANCE OF EXTENT REPORT WITH NAME(LMA_TestExecution_Report.html) AND APPEND STATUS(false)
+07:02:06.005 INFO  utilities.Report -recordSystemInfo -INTEND TO ADD SYSTEM INFORMATION IN EXTENT REPORT
+07:02:06.006 INFO  utilities.Report -recordSystemInfo -SUCCESSFULLY ADDED SYSTEM INFORMATION(Operating System : Windows 7 - 64 bit) IN EXTENT REPORT
+07:02:06.006 INFO  utilities.Report -recordSystemInfo -INTEND TO ADD SYSTEM INFORMATION IN EXTENT REPORT
+07:02:06.006 INFO  utilities.Report -recordSystemInfo -SUCCESSFULLY ADDED SYSTEM INFORMATION(Java : Java 1.8) IN EXTENT REPORT
+07:02:06.007 INFO  utilities.Report -recordSystemInfo -INTEND TO ADD SYSTEM INFORMATION IN EXTENT REPORT
+07:02:06.007 INFO  utilities.Report -recordSystemInfo -SUCCESSFULLY ADDED SYSTEM INFORMATION(Selenium Version : Selenium 3.3.4) IN EXTENT REPORT
+07:02:06.007 INFO  accelarators.Base -setup -BEFORE CLASS EXECUTED SUCCESSFULLY
+07:02:06.019 INFO  testScripts.LmaTestCase -AddCounterParty -METHOD(AddCounterParty) EXECUTION STARTED SUCCESSFULLY
+07:02:06.020 INFO  utilities.Report -makeTestCaseEntry -INTEND TO CREATE AN INSTANCE OF TEST CASE WITH NAME IN EXTENT REPORT
+07:02:06.020 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:02:06.020 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:02:06.020 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:02:06.023 INFO  utilities.Report -makeTestCaseEntry -SUCCESSFULY CREATED AN INSTANCE OF TEST CASE WITH NAME(LMA_POC_Automation) IN EXTENT REPORT
+07:02:06.024 INFO  utilities.Report -assignCategoryToTestCase -INTEND TO ASSIGN CATAGORY TO A TEST CASE IN EXTENT REPORT
+07:02:06.029 INFO  utilities.Report -assignCategoryToTestCase -SUCCESSFULY ASSIGNED THE CATAGORY(TC1) TO A TEST CASE IN EXTENT REPORT
+07:02:06.029 INFO  pageObjects.LmaWorkFlow -LaunchApplication -WORKFLOW(newTrackerListingProcess) EXECUTION STARTED SUCCESSFULLY
+07:02:06.053 INFO  pageObjects.LmaCommonPage -initiateBrowser -METHOD(initiateBrowser) EXECUTION STARTED SUCCESSFULLY
+07:02:06.120 ERROR pageObjects.LmaCommonPage -initiateBrowser -The driver executable does not exist: C:\workspace\AutomationPoC\Drivers\chromedriver.exe
+07:02:06.120 INFO  pageObjects.LmaCommonPage -initiateBrowser -METHOD(initiateBrowser) EXECUTED SUCCESSFULLY
+07:02:06.120 ERROR pageObjects.LmaWorkFlow -LaunchApplication -null
+07:02:06.120 INFO  utilities.Report -logTestCaseStatus -INTEND TO LOG TEST CASE STATUS WITH DESCRIPTION IN EXTENT REPORT
+07:02:06.121 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:02:06.121 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:02:06.121 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:02:06.121 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:02:06.121 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:02:06.122 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:02:06.132 INFO  utilities.Report -logTestCaseStatus -SUCCESSFULY LOGED THE STATUS(FAIL) WITH DESCRIPTION(<font color=red><b>IU Is Not logged in Successfully</b></font><br />null<br />) IN EXTENT REPORT
+07:02:06.133 ERROR testScripts.LmaTestCase -AddCounterParty -UNABLE TO INITIATE THE login PROCESS 
+null
+
+07:02:06.137 INFO  testScripts.LmaTestCase -afterExecutionOfEachTest -AFTER METHOD EXECUTION STARTED SUCCESSFULLY
+07:02:06.137 INFO  accelarators.ActionDriver -screenShot -METHOD(screenShot) EXECUTION STARTED SUCCESSFULLY
+07:02:06.138 ERROR testScripts.LmaTestCase -afterExecutionOfEachTest -null
+07:02:06.138 INFO  utilities.Report -logTestCaseStatus -INTEND TO LOG TEST CASE STATUS WITH DESCRIPTION IN EXTENT REPORT
+07:02:06.139 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:02:06.139 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:02:06.139 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:02:06.139 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+07:02:06.139 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+07:02:06.140 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+07:02:06.141 INFO  utilities.Report -logTestCaseStatus -SUCCESSFULY LOGED THE STATUS(FAIL) WITH DESCRIPTION(<font color=red><b>After Method Is Not Successful</b></font><br />null<br />) IN EXTENT REPORT
+07:02:06.145 INFO  accelarators.Base -close -Start of Executing AfterClass method name: close() 
+07:02:06.145 INFO  accelarators.Base -close -End of Executing after class stuff
+07:02:06.145 INFO  accelarators.Base -close -End of Executing AfterClass method name: close() 
+08:33:51.732 INFO  accelarators.Base -setup -BEFORE CLASS EXECUTION STARTED SUCCESSFULLY
+08:33:51.754 INFO  utilities.ConfigProperties -loadFrom -INTEND TO LOAD USER CONFIGURATION PARAMETERS FROM PROPERTIES FILE
+08:33:51.755 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+08:33:51.755 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+08:33:51.755 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+08:33:51.756 INFO  accelarators.Base -formatGiven -INTENDED TO CHECK IF THE FILE NAME HAS THE FILE EXTENSION
+08:33:51.756 INFO  accelarators.Base -formatGiven -FILE FORMAT IS PROVIDED WITH THE FILE NAME(config.properties)
+08:33:51.756 INFO  accelarators.Base -formatGiven -SUCCESSFULLY CHECKED IF THE FILE NAME HAS THE FILE EXTENSION
+08:33:51.757 INFO  accelarators.Base -getFileFormat -INTENDED TO RETRIEVE THE FORMAT OF THE FILE
+08:33:51.757 INFO  accelarators.Base -getFileFormat -SUCCESSFULLY GOT THE FILE FORMAT(.properties) FROM THE FILE NAME(config.properties)
+
+08:33:51.757 INFO  accelarators.Base -getFileFormat -SUCCESSFULLY RETRIEVED THE FORMAT OF THE FILE
+08:33:51.758 INFO  accelarators.Base -fileFormatIs -INTENDED TO CHECK IF THE FILE BELONGS TO THE GIVEN FORMAT
+08:33:51.758 INFO  accelarators.Base -fileFormatIs -EXPECTED AND ACTUAL FILE FORMATS ARE THE SAME
+08:33:51.758 INFO  accelarators.Base -fileFormatIs -SUCCESSFULLY CHECKED IF THE FILE BELONGS TO THE GIVEN FORMAT
+08:33:51.758 INFO  accelarators.Base -createFileInstance -INTENDED TO CREATE THE FILE INSTANCE
+08:33:51.759 INFO  accelarators.Base -createFileInstance -FILE INSTANCE CREATED
+08:33:51.759 INFO  accelarators.Base -createFileInstance -SUCCESSFULLY CREATED THE FILE INSTANCE
+08:33:51.760 INFO  accelarators.Base -readFile -INTENDED TO READ THE GIVEN FILE
+08:33:51.760 INFO  accelarators.Base -readFile -SUCCESSFULLY READ THE FILE(C:\workspace\AutomationPoC\src\test\resources\config.properties) SPECIFIED
+08:33:51.761 INFO  accelarators.Base -readFile -READING THE FILE IS SUCCESSFUL
+08:33:51.761 INFO  utilities.ConfigProperties -createPropertiesInstance -INTEND TO CREATE AN INSTANCE OF PROPERTIES
+08:33:51.761 INFO  utilities.ConfigProperties -createPropertiesInstance -AN INSTANCE OF PROPERTIES CLASS CREATED
+08:33:51.762 INFO  utilities.ConfigProperties -createPropertiesInstance -SUCCESSFULLY CREATED AN INSTANCE OF PROPERTIES
+08:33:51.762 INFO  utilities.ConfigProperties -loadProperties -INTEND TO LOAD PROPERTIES
+08:33:51.763 INFO  utilities.ConfigProperties -loadProperties -SUCCESSFULLY LOADED THE PROPERTY FILE
+08:33:51.763 INFO  utilities.ConfigProperties -loadProperties -SUCCESSFULLY LOADED PROPERTIES
+08:33:51.763 INFO  utilities.ConfigProperties -loadFrom -SUCCESSFULLY LOADED USER CONFIGURATION PARAMETERS FROM PROPERTY FILE(config.properties) UNDER THE LOCATION(C:\workspace\AutomationPoC\src\test\resources\)
+08:33:51.764 INFO  accelarators.Base -setup -creating folders for screen shots
+08:33:51.787 INFO  utilities.Report -initialize -INTEND TO CREATE AN INSTANCE OF EXTENT REPORT WITH NAME AND APPEND STATUS
+08:33:51.788 INFO  utilities.Report -initializeHTML -INTEND TO INITIALIZE AN HTML REPORT
+08:33:51.788 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+08:33:51.788 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+08:33:51.789 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+08:33:51.789 INFO  accelarators.Base -formatGiven -INTENDED TO CHECK IF THE FILE NAME HAS THE FILE EXTENSION
+08:33:51.789 INFO  accelarators.Base -formatGiven -FILE FORMAT IS PROVIDED WITH THE FILE NAME(LMA_TestExecution_Report.html)
+08:33:51.789 INFO  accelarators.Base -formatGiven -SUCCESSFULLY CHECKED IF THE FILE NAME HAS THE FILE EXTENSION
+08:33:51.790 INFO  accelarators.Base -getFileFormat -INTENDED TO RETRIEVE THE FORMAT OF THE FILE
+08:33:51.790 INFO  accelarators.Base -getFileFormat -SUCCESSFULLY GOT THE FILE FORMAT(.html) FROM THE FILE NAME(LMA_TestExecution_Report.html)
+
+08:33:51.790 INFO  accelarators.Base -getFileFormat -SUCCESSFULLY RETRIEVED THE FORMAT OF THE FILE
+08:33:51.791 INFO  accelarators.Base -fileFormatIs -INTENDED TO CHECK IF THE FILE BELONGS TO THE GIVEN FORMAT
+08:33:51.791 INFO  accelarators.Base -fileFormatIs -EXPECTED AND ACTUAL FILE FORMATS ARE THE SAME
+08:33:51.791 INFO  accelarators.Base -fileFormatIs -SUCCESSFULLY CHECKED IF THE FILE BELONGS TO THE GIVEN FORMAT
+08:33:51.791 INFO  utilities.Report -createInstanceOfHTMLReport -INTEND TO CREATE AN INSTANCE OF HTML REPORT WITH NAME
+08:33:51.869 INFO  utilities.Report -createInstanceOfHTMLReport -SUCCESSFULLY CREATED AN INSTANCE OF HTML REPORT WITH NAME(LMA_TestExecution_Report.html)
+08:33:51.870 INFO  utilities.Report -appendToExistingReport -INTED TO ADD THE CONTENTS TO EXTENT REPORT BASED ON THE APPEND STATUS
+08:33:51.870 INFO  utilities.Report -appendToExistingReport -CONTENTS ARE ADDED TO EXTENT REPORT BASED ON THE APPEND STATUS(false)
+08:33:51.870 INFO  utilities.Report -setHTMLReportName -INTEND TO SET A NAME FOR THE HTML REPORT 
+08:33:51.870 INFO  utilities.Report -setHTMLReportName -HTML REPORT NAME(Test Case Summary) WAS SET SUCCESSFULLY
+08:33:51.871 INFO  utilities.Report -setHTMLReportTheme -INTEND TO SET A THEME FOR THE HTML REPORT 
+08:33:51.872 INFO  utilities.Report -setHTMLReportTheme -HTML REPORT THEME WAS SET SUCCESSFULLY
+08:33:51.872 INFO  utilities.Report -initializeHTML -SUCCESSFULLY INITIALIZED AN HTML REPORT(LMA_TestExecution_Report.html)
+08:33:51.872 INFO  utilities.Report -createInstanceOfExtentReport -INTEND TO CREATE AN INSTANCE OF EXTENT REPORT
+08:33:51.879 INFO  utilities.Report -createInstanceOfExtentReport -SUCCESSFULLY CREATED AN INSTANCE OF EXTENT REPORT
+08:33:51.880 INFO  utilities.Report -attachHTMLReport -INTEND TO ATTACH HTML REPORT TO EXTENT REPORT
+08:33:52.056 INFO  utilities.Report -attachHTMLReport -SUCCESSFULLY ATTACHED HTML REPORT TO EXTENT REPORT
+08:33:52.056 INFO  utilities.Report -initialize -SUCCESSFULLY CREATED AN INSTANCE OF EXTENT REPORT WITH NAME(LMA_TestExecution_Report.html) AND APPEND STATUS(false)
+08:33:52.057 INFO  utilities.Report -recordSystemInfo -INTEND TO ADD SYSTEM INFORMATION IN EXTENT REPORT
+08:33:52.057 INFO  utilities.Report -recordSystemInfo -SUCCESSFULLY ADDED SYSTEM INFORMATION(Operating System : Windows 7 - 64 bit) IN EXTENT REPORT
+08:33:52.057 INFO  utilities.Report -recordSystemInfo -INTEND TO ADD SYSTEM INFORMATION IN EXTENT REPORT
+08:33:52.058 INFO  utilities.Report -recordSystemInfo -SUCCESSFULLY ADDED SYSTEM INFORMATION(Java : Java 1.8) IN EXTENT REPORT
+08:33:52.058 INFO  utilities.Report -recordSystemInfo -INTEND TO ADD SYSTEM INFORMATION IN EXTENT REPORT
+08:33:52.058 INFO  utilities.Report -recordSystemInfo -SUCCESSFULLY ADDED SYSTEM INFORMATION(Selenium Version : Selenium 3.3.4) IN EXTENT REPORT
+08:33:52.058 INFO  accelarators.Base -setup -BEFORE CLASS EXECUTED SUCCESSFULLY
+08:33:52.069 INFO  testScripts.LmaTestCase -AddCounterParty -METHOD(AddCounterParty) EXECUTION STARTED SUCCESSFULLY
+08:33:52.069 INFO  utilities.Report -makeTestCaseEntry -INTEND TO CREATE AN INSTANCE OF TEST CASE WITH NAME IN EXTENT REPORT
+08:33:52.069 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+08:33:52.069 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+08:33:52.070 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+08:33:52.073 INFO  utilities.Report -makeTestCaseEntry -SUCCESSFULY CREATED AN INSTANCE OF TEST CASE WITH NAME(LMA_POC_Automation) IN EXTENT REPORT
+08:33:52.073 INFO  utilities.Report -assignCategoryToTestCase -INTEND TO ASSIGN CATAGORY TO A TEST CASE IN EXTENT REPORT
+08:33:52.079 INFO  utilities.Report -assignCategoryToTestCase -SUCCESSFULY ASSIGNED THE CATAGORY(TC1) TO A TEST CASE IN EXTENT REPORT
+08:33:52.079 INFO  pageObjects.LmaWorkFlow -LaunchApplication -WORKFLOW(newTrackerListingProcess) EXECUTION STARTED SUCCESSFULLY
+08:33:52.103 INFO  pageObjects.LmaCommonPage -initiateBrowser -METHOD(initiateBrowser) EXECUTION STARTED SUCCESSFULLY
+08:33:55.048 ERROR pageObjects.LmaCommonPage -initiateBrowser -session not created: This version of ChromeDriver only supports Chrome version 75
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'LAPTOP-SA79HMC3', ip: '172.28.172.121', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x01157DF3+1474035]
+	Ordinal0 [0x010D07D1+919505]
+	Ordinal0 [0x0106CB43+510787]
+	Ordinal0 [0x01001B0F+72463]
+	Ordinal0 [0x00FFE3F3+58355]
+	Ordinal0 [0x01020CE4+199908]
+	Ordinal0 [0x0102069D+198301]
+	Ordinal0 [0x0101EECB+192203]
+	Ordinal0 [0x01005FF6+90102]
+	Ordinal0 [0x0100765A+95834]
+	Ordinal0 [0x01007554+95572]
+	GetHandleVerifier [0x012B231C+1249612]
+	GetHandleVerifier [0x01201575+525221]
+	GetHandleVerifier [0x01201310+524608]
+	Ordinal0 [0x01165D28+1531176]
+	GetHandleVerifier [0x01201D4A+527226]
+	Ordinal0 [0x010E75F6+1013238]
+	Ordinal0 [0x010E746F+1012847]
+	Ordinal0 [0x010F365B+1062491]
+	Ordinal0 [0x010F379F+1062815]
+	Ordinal0 [0x010F2745+1058629]
+	BaseThreadInitThunk [0x77528494+36]
+	RtlAreBitsSet [0x77D441C8+136]
+	RtlAreBitsSet [0x77D44198+88]
+
+08:33:55.049 INFO  pageObjects.LmaCommonPage -initiateBrowser -METHOD(initiateBrowser) EXECUTED SUCCESSFULLY
+08:33:55.049 ERROR pageObjects.LmaWorkFlow -LaunchApplication -null
+08:33:55.050 INFO  utilities.Report -logTestCaseStatus -INTEND TO LOG TEST CASE STATUS WITH DESCRIPTION IN EXTENT REPORT
+08:33:55.050 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+08:33:55.050 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+08:33:55.050 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+08:33:55.050 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+08:33:55.051 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+08:33:55.051 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+08:33:55.059 INFO  utilities.Report -logTestCaseStatus -SUCCESSFULY LOGED THE STATUS(FAIL) WITH DESCRIPTION(<font color=red><b>IU Is Not logged in Successfully</b></font><br />null<br />) IN EXTENT REPORT
+08:33:55.059 ERROR testScripts.LmaTestCase -AddCounterParty -UNABLE TO INITIATE THE login PROCESS 
+null
+
+08:33:55.064 INFO  testScripts.LmaTestCase -afterExecutionOfEachTest -AFTER METHOD EXECUTION STARTED SUCCESSFULLY
+08:33:55.065 INFO  accelarators.ActionDriver -screenShot -METHOD(screenShot) EXECUTION STARTED SUCCESSFULLY
+08:33:55.065 ERROR testScripts.LmaTestCase -afterExecutionOfEachTest -null
+08:33:55.065 INFO  utilities.Report -logTestCaseStatus -INTEND TO LOG TEST CASE STATUS WITH DESCRIPTION IN EXTENT REPORT
+08:33:55.066 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+08:33:55.066 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+08:33:55.066 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+08:33:55.066 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+08:33:55.067 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+08:33:55.067 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+08:33:55.069 INFO  utilities.Report -logTestCaseStatus -SUCCESSFULY LOGED THE STATUS(FAIL) WITH DESCRIPTION(<font color=red><b>After Method Is Not Successful</b></font><br />null<br />) IN EXTENT REPORT
+08:33:55.073 INFO  accelarators.Base -close -Start of Executing AfterClass method name: close() 
+08:33:55.073 INFO  accelarators.Base -close -End of Executing after class stuff
+08:33:55.074 INFO  accelarators.Base -close -End of Executing AfterClass method name: close() 
+08:34:50.096 INFO  accelarators.Base -setup -BEFORE CLASS EXECUTION STARTED SUCCESSFULLY
+08:34:50.105 INFO  utilities.ConfigProperties -loadFrom -INTEND TO LOAD USER CONFIGURATION PARAMETERS FROM PROPERTIES FILE
+08:34:50.106 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+08:34:50.106 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+08:34:50.107 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+08:34:50.107 INFO  accelarators.Base -formatGiven -INTENDED TO CHECK IF THE FILE NAME HAS THE FILE EXTENSION
+08:34:50.107 INFO  accelarators.Base -formatGiven -FILE FORMAT IS PROVIDED WITH THE FILE NAME(config.properties)
+08:34:50.108 INFO  accelarators.Base -formatGiven -SUCCESSFULLY CHECKED IF THE FILE NAME HAS THE FILE EXTENSION
+08:34:50.108 INFO  accelarators.Base -getFileFormat -INTENDED TO RETRIEVE THE FORMAT OF THE FILE
+08:34:50.108 INFO  accelarators.Base -getFileFormat -SUCCESSFULLY GOT THE FILE FORMAT(.properties) FROM THE FILE NAME(config.properties)
+
+08:34:50.108 INFO  accelarators.Base -getFileFormat -SUCCESSFULLY RETRIEVED THE FORMAT OF THE FILE
+08:34:50.109 INFO  accelarators.Base -fileFormatIs -INTENDED TO CHECK IF THE FILE BELONGS TO THE GIVEN FORMAT
+08:34:50.109 INFO  accelarators.Base -fileFormatIs -EXPECTED AND ACTUAL FILE FORMATS ARE THE SAME
+08:34:50.109 INFO  accelarators.Base -fileFormatIs -SUCCESSFULLY CHECKED IF THE FILE BELONGS TO THE GIVEN FORMAT
+08:34:50.110 INFO  accelarators.Base -createFileInstance -INTENDED TO CREATE THE FILE INSTANCE
+08:34:50.110 INFO  accelarators.Base -createFileInstance -FILE INSTANCE CREATED
+08:34:50.110 INFO  accelarators.Base -createFileInstance -SUCCESSFULLY CREATED THE FILE INSTANCE
+08:34:50.110 INFO  accelarators.Base -readFile -INTENDED TO READ THE GIVEN FILE
+08:34:50.111 INFO  accelarators.Base -readFile -SUCCESSFULLY READ THE FILE(C:\workspace\AutomationPoC\src\test\resources\config.properties) SPECIFIED
+08:34:50.111 INFO  accelarators.Base -readFile -READING THE FILE IS SUCCESSFUL
+08:34:50.112 INFO  utilities.ConfigProperties -createPropertiesInstance -INTEND TO CREATE AN INSTANCE OF PROPERTIES
+08:34:50.112 INFO  utilities.ConfigProperties -createPropertiesInstance -AN INSTANCE OF PROPERTIES CLASS CREATED
+08:34:50.112 INFO  utilities.ConfigProperties -createPropertiesInstance -SUCCESSFULLY CREATED AN INSTANCE OF PROPERTIES
+08:34:50.113 INFO  utilities.ConfigProperties -loadProperties -INTEND TO LOAD PROPERTIES
+08:34:50.113 INFO  utilities.ConfigProperties -loadProperties -SUCCESSFULLY LOADED THE PROPERTY FILE
+08:34:50.114 INFO  utilities.ConfigProperties -loadProperties -SUCCESSFULLY LOADED PROPERTIES
+08:34:50.114 INFO  utilities.ConfigProperties -loadFrom -SUCCESSFULLY LOADED USER CONFIGURATION PARAMETERS FROM PROPERTY FILE(config.properties) UNDER THE LOCATION(C:\workspace\AutomationPoC\src\test\resources\)
+08:34:50.115 INFO  accelarators.Base -setup -creating folders for screen shots
+08:34:50.140 INFO  utilities.Report -initialize -INTEND TO CREATE AN INSTANCE OF EXTENT REPORT WITH NAME AND APPEND STATUS
+08:34:50.140 INFO  utilities.Report -initializeHTML -INTEND TO INITIALIZE AN HTML REPORT
+08:34:50.141 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+08:34:50.141 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+08:34:50.141 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+08:34:50.142 INFO  accelarators.Base -formatGiven -INTENDED TO CHECK IF THE FILE NAME HAS THE FILE EXTENSION
+08:34:50.142 INFO  accelarators.Base -formatGiven -FILE FORMAT IS PROVIDED WITH THE FILE NAME(LMA_TestExecution_Report.html)
+08:34:50.143 INFO  accelarators.Base -formatGiven -SUCCESSFULLY CHECKED IF THE FILE NAME HAS THE FILE EXTENSION
+08:34:50.143 INFO  accelarators.Base -getFileFormat -INTENDED TO RETRIEVE THE FORMAT OF THE FILE
+08:34:50.144 INFO  accelarators.Base -getFileFormat -SUCCESSFULLY GOT THE FILE FORMAT(.html) FROM THE FILE NAME(LMA_TestExecution_Report.html)
+
+08:34:50.144 INFO  accelarators.Base -getFileFormat -SUCCESSFULLY RETRIEVED THE FORMAT OF THE FILE
+08:34:50.145 INFO  accelarators.Base -fileFormatIs -INTENDED TO CHECK IF THE FILE BELONGS TO THE GIVEN FORMAT
+08:34:50.145 INFO  accelarators.Base -fileFormatIs -EXPECTED AND ACTUAL FILE FORMATS ARE THE SAME
+08:34:50.145 INFO  accelarators.Base -fileFormatIs -SUCCESSFULLY CHECKED IF THE FILE BELONGS TO THE GIVEN FORMAT
+08:34:50.146 INFO  utilities.Report -createInstanceOfHTMLReport -INTEND TO CREATE AN INSTANCE OF HTML REPORT WITH NAME
+08:34:50.218 INFO  utilities.Report -createInstanceOfHTMLReport -SUCCESSFULLY CREATED AN INSTANCE OF HTML REPORT WITH NAME(LMA_TestExecution_Report.html)
+08:34:50.218 INFO  utilities.Report -appendToExistingReport -INTED TO ADD THE CONTENTS TO EXTENT REPORT BASED ON THE APPEND STATUS
+08:34:50.219 INFO  utilities.Report -appendToExistingReport -CONTENTS ARE ADDED TO EXTENT REPORT BASED ON THE APPEND STATUS(false)
+08:34:50.219 INFO  utilities.Report -setHTMLReportName -INTEND TO SET A NAME FOR THE HTML REPORT 
+08:34:50.219 INFO  utilities.Report -setHTMLReportName -HTML REPORT NAME(Test Case Summary) WAS SET SUCCESSFULLY
+08:34:50.220 INFO  utilities.Report -setHTMLReportTheme -INTEND TO SET A THEME FOR THE HTML REPORT 
+08:34:50.220 INFO  utilities.Report -setHTMLReportTheme -HTML REPORT THEME WAS SET SUCCESSFULLY
+08:34:50.220 INFO  utilities.Report -initializeHTML -SUCCESSFULLY INITIALIZED AN HTML REPORT(LMA_TestExecution_Report.html)
+08:34:50.220 INFO  utilities.Report -createInstanceOfExtentReport -INTEND TO CREATE AN INSTANCE OF EXTENT REPORT
+08:34:50.226 INFO  utilities.Report -createInstanceOfExtentReport -SUCCESSFULLY CREATED AN INSTANCE OF EXTENT REPORT
+08:34:50.226 INFO  utilities.Report -attachHTMLReport -INTEND TO ATTACH HTML REPORT TO EXTENT REPORT
+08:34:50.322 INFO  utilities.Report -attachHTMLReport -SUCCESSFULLY ATTACHED HTML REPORT TO EXTENT REPORT
+08:34:50.322 INFO  utilities.Report -initialize -SUCCESSFULLY CREATED AN INSTANCE OF EXTENT REPORT WITH NAME(LMA_TestExecution_Report.html) AND APPEND STATUS(false)
+08:34:50.323 INFO  utilities.Report -recordSystemInfo -INTEND TO ADD SYSTEM INFORMATION IN EXTENT REPORT
+08:34:50.323 INFO  utilities.Report -recordSystemInfo -SUCCESSFULLY ADDED SYSTEM INFORMATION(Operating System : Windows 7 - 64 bit) IN EXTENT REPORT
+08:34:50.324 INFO  utilities.Report -recordSystemInfo -INTEND TO ADD SYSTEM INFORMATION IN EXTENT REPORT
+08:34:50.324 INFO  utilities.Report -recordSystemInfo -SUCCESSFULLY ADDED SYSTEM INFORMATION(Java : Java 1.8) IN EXTENT REPORT
+08:34:50.324 INFO  utilities.Report -recordSystemInfo -INTEND TO ADD SYSTEM INFORMATION IN EXTENT REPORT
+08:34:50.324 INFO  utilities.Report -recordSystemInfo -SUCCESSFULLY ADDED SYSTEM INFORMATION(Selenium Version : Selenium 3.3.4) IN EXTENT REPORT
+08:34:50.324 INFO  accelarators.Base -setup -BEFORE CLASS EXECUTED SUCCESSFULLY
+08:34:50.336 INFO  testScripts.LmaTestCase -AddCounterParty -METHOD(AddCounterParty) EXECUTION STARTED SUCCESSFULLY
+08:34:50.337 INFO  utilities.Report -makeTestCaseEntry -INTEND TO CREATE AN INSTANCE OF TEST CASE WITH NAME IN EXTENT REPORT
+08:34:50.337 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+08:34:50.337 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+08:34:50.337 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+08:34:50.340 INFO  utilities.Report -makeTestCaseEntry -SUCCESSFULY CREATED AN INSTANCE OF TEST CASE WITH NAME(LMA_POC_Automation) IN EXTENT REPORT
+08:34:50.341 INFO  utilities.Report -assignCategoryToTestCase -INTEND TO ASSIGN CATAGORY TO A TEST CASE IN EXTENT REPORT
+08:34:50.347 INFO  utilities.Report -assignCategoryToTestCase -SUCCESSFULY ASSIGNED THE CATAGORY(TC1) TO A TEST CASE IN EXTENT REPORT
+08:34:50.347 INFO  pageObjects.LmaWorkFlow -LaunchApplication -WORKFLOW(newTrackerListingProcess) EXECUTION STARTED SUCCESSFULLY
+08:34:50.375 INFO  pageObjects.LmaCommonPage -initiateBrowser -METHOD(initiateBrowser) EXECUTION STARTED SUCCESSFULLY
+08:34:53.000 ERROR pageObjects.LmaCommonPage -initiateBrowser -session not created: This version of ChromeDriver only supports Chrome version 75
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'LAPTOP-SA79HMC3', ip: '172.28.172.121', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x01157DF3+1474035]
+	Ordinal0 [0x010D07D1+919505]
+	Ordinal0 [0x0106CB43+510787]
+	Ordinal0 [0x01001B0F+72463]
+	Ordinal0 [0x00FFE3F3+58355]
+	Ordinal0 [0x01020CE4+199908]
+	Ordinal0 [0x0102069D+198301]
+	Ordinal0 [0x0101EECB+192203]
+	Ordinal0 [0x01005FF6+90102]
+	Ordinal0 [0x0100765A+95834]
+	Ordinal0 [0x01007554+95572]
+	GetHandleVerifier [0x012B231C+1249612]
+	GetHandleVerifier [0x01201575+525221]
+	GetHandleVerifier [0x01201310+524608]
+	Ordinal0 [0x01165D28+1531176]
+	GetHandleVerifier [0x01201D4A+527226]
+	Ordinal0 [0x010E75F6+1013238]
+	Ordinal0 [0x010E746F+1012847]
+	Ordinal0 [0x010F365B+1062491]
+	Ordinal0 [0x010F379F+1062815]
+	Ordinal0 [0x010F2745+1058629]
+	BaseThreadInitThunk [0x77528494+36]
+	RtlAreBitsSet [0x77D441C8+136]
+	RtlAreBitsSet [0x77D44198+88]
+
+08:34:53.001 INFO  pageObjects.LmaCommonPage -initiateBrowser -METHOD(initiateBrowser) EXECUTED SUCCESSFULLY
+08:34:53.001 ERROR pageObjects.LmaWorkFlow -LaunchApplication -null
+08:34:53.001 INFO  utilities.Report -logTestCaseStatus -INTEND TO LOG TEST CASE STATUS WITH DESCRIPTION IN EXTENT REPORT
+08:34:53.001 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+08:34:53.001 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+08:34:53.002 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+08:34:53.002 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+08:34:53.003 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+08:34:53.003 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+08:34:53.008 INFO  utilities.Report -logTestCaseStatus -SUCCESSFULY LOGED THE STATUS(FAIL) WITH DESCRIPTION(<font color=red><b>IU Is Not logged in Successfully</b></font><br />null<br />) IN EXTENT REPORT
+08:34:53.009 ERROR testScripts.LmaTestCase -AddCounterParty -UNABLE TO INITIATE THE login PROCESS 
+null
+
+08:34:53.013 INFO  testScripts.LmaTestCase -afterExecutionOfEachTest -AFTER METHOD EXECUTION STARTED SUCCESSFULLY
+08:34:53.014 INFO  accelarators.ActionDriver -screenShot -METHOD(screenShot) EXECUTION STARTED SUCCESSFULLY
+08:34:53.015 ERROR testScripts.LmaTestCase -afterExecutionOfEachTest -null
+08:34:53.015 INFO  utilities.Report -logTestCaseStatus -INTEND TO LOG TEST CASE STATUS WITH DESCRIPTION IN EXTENT REPORT
+08:34:53.015 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+08:34:53.015 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+08:34:53.015 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+08:34:53.015 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+08:34:53.015 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+08:34:53.015 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+08:34:53.017 INFO  utilities.Report -logTestCaseStatus -SUCCESSFULY LOGED THE STATUS(FAIL) WITH DESCRIPTION(<font color=red><b>After Method Is Not Successful</b></font><br />null<br />) IN EXTENT REPORT
+08:34:53.021 INFO  accelarators.Base -close -Start of Executing AfterClass method name: close() 
+08:34:53.021 INFO  accelarators.Base -close -End of Executing after class stuff
+08:34:53.021 INFO  accelarators.Base -close -End of Executing AfterClass method name: close() 
+08:35:53.988 INFO  accelarators.Base -setup -BEFORE CLASS EXECUTION STARTED SUCCESSFULLY
+08:35:53.996 INFO  utilities.ConfigProperties -loadFrom -INTEND TO LOAD USER CONFIGURATION PARAMETERS FROM PROPERTIES FILE
+08:35:53.996 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+08:35:53.996 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+08:35:53.997 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+08:35:53.997 INFO  accelarators.Base -formatGiven -INTENDED TO CHECK IF THE FILE NAME HAS THE FILE EXTENSION
+08:35:53.997 INFO  accelarators.Base -formatGiven -FILE FORMAT IS PROVIDED WITH THE FILE NAME(config.properties)
+08:35:53.998 INFO  accelarators.Base -formatGiven -SUCCESSFULLY CHECKED IF THE FILE NAME HAS THE FILE EXTENSION
+08:35:53.998 INFO  accelarators.Base -getFileFormat -INTENDED TO RETRIEVE THE FORMAT OF THE FILE
+08:35:53.998 INFO  accelarators.Base -getFileFormat -SUCCESSFULLY GOT THE FILE FORMAT(.properties) FROM THE FILE NAME(config.properties)
+
+08:35:53.998 INFO  accelarators.Base -getFileFormat -SUCCESSFULLY RETRIEVED THE FORMAT OF THE FILE
+08:35:53.999 INFO  accelarators.Base -fileFormatIs -INTENDED TO CHECK IF THE FILE BELONGS TO THE GIVEN FORMAT
+08:35:53.999 INFO  accelarators.Base -fileFormatIs -EXPECTED AND ACTUAL FILE FORMATS ARE THE SAME
+08:35:53.999 INFO  accelarators.Base -fileFormatIs -SUCCESSFULLY CHECKED IF THE FILE BELONGS TO THE GIVEN FORMAT
+08:35:53.999 INFO  accelarators.Base -createFileInstance -INTENDED TO CREATE THE FILE INSTANCE
+08:35:54.000 INFO  accelarators.Base -createFileInstance -FILE INSTANCE CREATED
+08:35:54.000 INFO  accelarators.Base -createFileInstance -SUCCESSFULLY CREATED THE FILE INSTANCE
+08:35:54.000 INFO  accelarators.Base -readFile -INTENDED TO READ THE GIVEN FILE
+08:35:54.001 INFO  accelarators.Base -readFile -SUCCESSFULLY READ THE FILE(C:\workspace\AutomationPoC\src\test\resources\config.properties) SPECIFIED
+08:35:54.001 INFO  accelarators.Base -readFile -READING THE FILE IS SUCCESSFUL
+08:35:54.001 INFO  utilities.ConfigProperties -createPropertiesInstance -INTEND TO CREATE AN INSTANCE OF PROPERTIES
+08:35:54.001 INFO  utilities.ConfigProperties -createPropertiesInstance -AN INSTANCE OF PROPERTIES CLASS CREATED
+08:35:54.001 INFO  utilities.ConfigProperties -createPropertiesInstance -SUCCESSFULLY CREATED AN INSTANCE OF PROPERTIES
+08:35:54.002 INFO  utilities.ConfigProperties -loadProperties -INTEND TO LOAD PROPERTIES
+08:35:54.002 INFO  utilities.ConfigProperties -loadProperties -SUCCESSFULLY LOADED THE PROPERTY FILE
+08:35:54.002 INFO  utilities.ConfigProperties -loadProperties -SUCCESSFULLY LOADED PROPERTIES
+08:35:54.003 INFO  utilities.ConfigProperties -loadFrom -SUCCESSFULLY LOADED USER CONFIGURATION PARAMETERS FROM PROPERTY FILE(config.properties) UNDER THE LOCATION(C:\workspace\AutomationPoC\src\test\resources\)
+08:35:54.003 INFO  accelarators.Base -setup -creating folders for screen shots
+08:35:54.019 INFO  utilities.Report -initialize -INTEND TO CREATE AN INSTANCE OF EXTENT REPORT WITH NAME AND APPEND STATUS
+08:35:54.019 INFO  utilities.Report -initializeHTML -INTEND TO INITIALIZE AN HTML REPORT
+08:35:54.019 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+08:35:54.019 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+08:35:54.019 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+08:35:54.020 INFO  accelarators.Base -formatGiven -INTENDED TO CHECK IF THE FILE NAME HAS THE FILE EXTENSION
+08:35:54.020 INFO  accelarators.Base -formatGiven -FILE FORMAT IS PROVIDED WITH THE FILE NAME(LMA_TestExecution_Report.html)
+08:35:54.020 INFO  accelarators.Base -formatGiven -SUCCESSFULLY CHECKED IF THE FILE NAME HAS THE FILE EXTENSION
+08:35:54.020 INFO  accelarators.Base -getFileFormat -INTENDED TO RETRIEVE THE FORMAT OF THE FILE
+08:35:54.020 INFO  accelarators.Base -getFileFormat -SUCCESSFULLY GOT THE FILE FORMAT(.html) FROM THE FILE NAME(LMA_TestExecution_Report.html)
+
+08:35:54.020 INFO  accelarators.Base -getFileFormat -SUCCESSFULLY RETRIEVED THE FORMAT OF THE FILE
+08:35:54.021 INFO  accelarators.Base -fileFormatIs -INTENDED TO CHECK IF THE FILE BELONGS TO THE GIVEN FORMAT
+08:35:54.021 INFO  accelarators.Base -fileFormatIs -EXPECTED AND ACTUAL FILE FORMATS ARE THE SAME
+08:35:54.021 INFO  accelarators.Base -fileFormatIs -SUCCESSFULLY CHECKED IF THE FILE BELONGS TO THE GIVEN FORMAT
+08:35:54.021 INFO  utilities.Report -createInstanceOfHTMLReport -INTEND TO CREATE AN INSTANCE OF HTML REPORT WITH NAME
+08:35:54.087 INFO  utilities.Report -createInstanceOfHTMLReport -SUCCESSFULLY CREATED AN INSTANCE OF HTML REPORT WITH NAME(LMA_TestExecution_Report.html)
+08:35:54.087 INFO  utilities.Report -appendToExistingReport -INTED TO ADD THE CONTENTS TO EXTENT REPORT BASED ON THE APPEND STATUS
+08:35:54.087 INFO  utilities.Report -appendToExistingReport -CONTENTS ARE ADDED TO EXTENT REPORT BASED ON THE APPEND STATUS(false)
+08:35:54.087 INFO  utilities.Report -setHTMLReportName -INTEND TO SET A NAME FOR THE HTML REPORT 
+08:35:54.088 INFO  utilities.Report -setHTMLReportName -HTML REPORT NAME(Test Case Summary) WAS SET SUCCESSFULLY
+08:35:54.088 INFO  utilities.Report -setHTMLReportTheme -INTEND TO SET A THEME FOR THE HTML REPORT 
+08:35:54.089 INFO  utilities.Report -setHTMLReportTheme -HTML REPORT THEME WAS SET SUCCESSFULLY
+08:35:54.089 INFO  utilities.Report -initializeHTML -SUCCESSFULLY INITIALIZED AN HTML REPORT(LMA_TestExecution_Report.html)
+08:35:54.089 INFO  utilities.Report -createInstanceOfExtentReport -INTEND TO CREATE AN INSTANCE OF EXTENT REPORT
+08:35:54.094 INFO  utilities.Report -createInstanceOfExtentReport -SUCCESSFULLY CREATED AN INSTANCE OF EXTENT REPORT
+08:35:54.095 INFO  utilities.Report -attachHTMLReport -INTEND TO ATTACH HTML REPORT TO EXTENT REPORT
+08:35:54.191 INFO  utilities.Report -attachHTMLReport -SUCCESSFULLY ATTACHED HTML REPORT TO EXTENT REPORT
+08:35:54.192 INFO  utilities.Report -initialize -SUCCESSFULLY CREATED AN INSTANCE OF EXTENT REPORT WITH NAME(LMA_TestExecution_Report.html) AND APPEND STATUS(false)
+08:35:54.192 INFO  utilities.Report -recordSystemInfo -INTEND TO ADD SYSTEM INFORMATION IN EXTENT REPORT
+08:35:54.192 INFO  utilities.Report -recordSystemInfo -SUCCESSFULLY ADDED SYSTEM INFORMATION(Operating System : Windows 7 - 64 bit) IN EXTENT REPORT
+08:35:54.193 INFO  utilities.Report -recordSystemInfo -INTEND TO ADD SYSTEM INFORMATION IN EXTENT REPORT
+08:35:54.193 INFO  utilities.Report -recordSystemInfo -SUCCESSFULLY ADDED SYSTEM INFORMATION(Java : Java 1.8) IN EXTENT REPORT
+08:35:54.193 INFO  utilities.Report -recordSystemInfo -INTEND TO ADD SYSTEM INFORMATION IN EXTENT REPORT
+08:35:54.193 INFO  utilities.Report -recordSystemInfo -SUCCESSFULLY ADDED SYSTEM INFORMATION(Selenium Version : Selenium 3.3.4) IN EXTENT REPORT
+08:35:54.193 INFO  accelarators.Base -setup -BEFORE CLASS EXECUTED SUCCESSFULLY
+08:35:54.204 INFO  testScripts.LmaTestCase -AddCounterParty -METHOD(AddCounterParty) EXECUTION STARTED SUCCESSFULLY
+08:35:54.205 INFO  utilities.Report -makeTestCaseEntry -INTEND TO CREATE AN INSTANCE OF TEST CASE WITH NAME IN EXTENT REPORT
+08:35:54.205 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+08:35:54.205 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+08:35:54.205 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+08:35:54.209 INFO  utilities.Report -makeTestCaseEntry -SUCCESSFULY CREATED AN INSTANCE OF TEST CASE WITH NAME(LMA_POC_Automation) IN EXTENT REPORT
+08:35:54.209 INFO  utilities.Report -assignCategoryToTestCase -INTEND TO ASSIGN CATAGORY TO A TEST CASE IN EXTENT REPORT
+08:35:54.216 INFO  utilities.Report -assignCategoryToTestCase -SUCCESSFULY ASSIGNED THE CATAGORY(TC1) TO A TEST CASE IN EXTENT REPORT
+08:35:54.216 INFO  pageObjects.LmaWorkFlow -LaunchApplication -WORKFLOW(newTrackerListingProcess) EXECUTION STARTED SUCCESSFULLY
+08:35:54.249 INFO  pageObjects.LmaCommonPage -initiateBrowser -METHOD(initiateBrowser) EXECUTION STARTED SUCCESSFULLY
+08:35:56.974 ERROR pageObjects.LmaCommonPage -initiateBrowser -session not created: This version of ChromeDriver only supports Chrome version 75
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'LAPTOP-SA79HMC3', ip: '172.28.172.121', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x01157DF3+1474035]
+	Ordinal0 [0x010D07D1+919505]
+	Ordinal0 [0x0106CB43+510787]
+	Ordinal0 [0x01001B0F+72463]
+	Ordinal0 [0x00FFE3F3+58355]
+	Ordinal0 [0x01020CE4+199908]
+	Ordinal0 [0x0102069D+198301]
+	Ordinal0 [0x0101EECB+192203]
+	Ordinal0 [0x01005FF6+90102]
+	Ordinal0 [0x0100765A+95834]
+	Ordinal0 [0x01007554+95572]
+	GetHandleVerifier [0x012B231C+1249612]
+	GetHandleVerifier [0x01201575+525221]
+	GetHandleVerifier [0x01201310+524608]
+	Ordinal0 [0x01165D28+1531176]
+	GetHandleVerifier [0x01201D4A+527226]
+	Ordinal0 [0x010E75F6+1013238]
+	Ordinal0 [0x010E746F+1012847]
+	Ordinal0 [0x010F365B+1062491]
+	Ordinal0 [0x010F379F+1062815]
+	Ordinal0 [0x010F2745+1058629]
+	BaseThreadInitThunk [0x77528494+36]
+	RtlAreBitsSet [0x77D441C8+136]
+	RtlAreBitsSet [0x77D44198+88]
+
+08:35:56.975 INFO  pageObjects.LmaCommonPage -initiateBrowser -METHOD(initiateBrowser) EXECUTED SUCCESSFULLY
+08:35:56.975 ERROR pageObjects.LmaWorkFlow -LaunchApplication -null
+08:35:56.975 INFO  utilities.Report -logTestCaseStatus -INTEND TO LOG TEST CASE STATUS WITH DESCRIPTION IN EXTENT REPORT
+08:35:56.975 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+08:35:56.976 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+08:35:56.976 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+08:35:56.976 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+08:35:56.976 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+08:35:56.976 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+08:35:56.983 INFO  utilities.Report -logTestCaseStatus -SUCCESSFULY LOGED THE STATUS(FAIL) WITH DESCRIPTION(<font color=red><b>IU Is Not logged in Successfully</b></font><br />null<br />) IN EXTENT REPORT
+08:35:56.983 ERROR testScripts.LmaTestCase -AddCounterParty -UNABLE TO INITIATE THE login PROCESS 
+null
+
+08:35:56.989 INFO  testScripts.LmaTestCase -afterExecutionOfEachTest -AFTER METHOD EXECUTION STARTED SUCCESSFULLY
+08:35:56.990 INFO  accelarators.ActionDriver -screenShot -METHOD(screenShot) EXECUTION STARTED SUCCESSFULLY
+08:35:56.990 ERROR testScripts.LmaTestCase -afterExecutionOfEachTest -null
+08:35:56.990 INFO  utilities.Report -logTestCaseStatus -INTEND TO LOG TEST CASE STATUS WITH DESCRIPTION IN EXTENT REPORT
+08:35:56.990 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+08:35:56.991 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+08:35:56.991 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+08:35:56.992 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+08:35:56.992 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+08:35:56.992 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+08:35:56.994 INFO  utilities.Report -logTestCaseStatus -SUCCESSFULY LOGED THE STATUS(FAIL) WITH DESCRIPTION(<font color=red><b>After Method Is Not Successful</b></font><br />null<br />) IN EXTENT REPORT
+08:35:57.000 INFO  accelarators.Base -close -Start of Executing AfterClass method name: close() 
+08:35:57.000 INFO  accelarators.Base -close -End of Executing after class stuff
+08:35:57.000 INFO  accelarators.Base -close -End of Executing AfterClass method name: close() 
+09:30:55.541 INFO  accelarators.Base -setup -BEFORE CLASS EXECUTION STARTED SUCCESSFULLY
+09:30:55.561 INFO  utilities.ConfigProperties -loadFrom -INTEND TO LOAD USER CONFIGURATION PARAMETERS FROM PROPERTIES FILE
+09:30:55.562 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+09:30:55.562 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+09:30:55.562 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+09:30:55.562 INFO  accelarators.Base -formatGiven -INTENDED TO CHECK IF THE FILE NAME HAS THE FILE EXTENSION
+09:30:55.563 INFO  accelarators.Base -formatGiven -FILE FORMAT IS PROVIDED WITH THE FILE NAME(config.properties)
+09:30:55.563 INFO  accelarators.Base -formatGiven -SUCCESSFULLY CHECKED IF THE FILE NAME HAS THE FILE EXTENSION
+09:30:55.563 INFO  accelarators.Base -getFileFormat -INTENDED TO RETRIEVE THE FORMAT OF THE FILE
+09:30:55.563 INFO  accelarators.Base -getFileFormat -SUCCESSFULLY GOT THE FILE FORMAT(.properties) FROM THE FILE NAME(config.properties)
+
+09:30:55.563 INFO  accelarators.Base -getFileFormat -SUCCESSFULLY RETRIEVED THE FORMAT OF THE FILE
+09:30:55.563 INFO  accelarators.Base -fileFormatIs -INTENDED TO CHECK IF THE FILE BELONGS TO THE GIVEN FORMAT
+09:30:55.564 INFO  accelarators.Base -fileFormatIs -EXPECTED AND ACTUAL FILE FORMATS ARE THE SAME
+09:30:55.564 INFO  accelarators.Base -fileFormatIs -SUCCESSFULLY CHECKED IF THE FILE BELONGS TO THE GIVEN FORMAT
+09:30:55.564 INFO  accelarators.Base -createFileInstance -INTENDED TO CREATE THE FILE INSTANCE
+09:30:55.564 INFO  accelarators.Base -createFileInstance -FILE INSTANCE CREATED
+09:30:55.564 INFO  accelarators.Base -createFileInstance -SUCCESSFULLY CREATED THE FILE INSTANCE
+09:30:55.565 INFO  accelarators.Base -readFile -INTENDED TO READ THE GIVEN FILE
+09:30:55.565 INFO  accelarators.Base -readFile -SUCCESSFULLY READ THE FILE(C:\workspace\AutomationPoC\src\test\resources\config.properties) SPECIFIED
+09:30:55.565 INFO  accelarators.Base -readFile -READING THE FILE IS SUCCESSFUL
+09:30:55.565 INFO  utilities.ConfigProperties -createPropertiesInstance -INTEND TO CREATE AN INSTANCE OF PROPERTIES
+09:30:55.566 INFO  utilities.ConfigProperties -createPropertiesInstance -AN INSTANCE OF PROPERTIES CLASS CREATED
+09:30:55.566 INFO  utilities.ConfigProperties -createPropertiesInstance -SUCCESSFULLY CREATED AN INSTANCE OF PROPERTIES
+09:30:55.566 INFO  utilities.ConfigProperties -loadProperties -INTEND TO LOAD PROPERTIES
+09:30:55.576 INFO  utilities.ConfigProperties -loadProperties -SUCCESSFULLY LOADED THE PROPERTY FILE
+09:30:55.576 INFO  utilities.ConfigProperties -loadProperties -SUCCESSFULLY LOADED PROPERTIES
+09:30:55.576 INFO  utilities.ConfigProperties -loadFrom -SUCCESSFULLY LOADED USER CONFIGURATION PARAMETERS FROM PROPERTY FILE(config.properties) UNDER THE LOCATION(C:\workspace\AutomationPoC\src\test\resources\)
+09:30:55.577 INFO  accelarators.Base -setup -creating folders for screen shots
+09:30:55.619 INFO  utilities.Report -initialize -INTEND TO CREATE AN INSTANCE OF EXTENT REPORT WITH NAME AND APPEND STATUS
+09:30:55.620 INFO  utilities.Report -initializeHTML -INTEND TO INITIALIZE AN HTML REPORT
+09:30:55.620 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+09:30:55.620 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+09:30:55.621 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+09:30:55.621 INFO  accelarators.Base -formatGiven -INTENDED TO CHECK IF THE FILE NAME HAS THE FILE EXTENSION
+09:30:55.621 INFO  accelarators.Base -formatGiven -FILE FORMAT IS PROVIDED WITH THE FILE NAME(LMA_TestExecution_Report.html)
+09:30:55.622 INFO  accelarators.Base -formatGiven -SUCCESSFULLY CHECKED IF THE FILE NAME HAS THE FILE EXTENSION
+09:30:55.622 INFO  accelarators.Base -getFileFormat -INTENDED TO RETRIEVE THE FORMAT OF THE FILE
+09:30:55.623 INFO  accelarators.Base -getFileFormat -SUCCESSFULLY GOT THE FILE FORMAT(.html) FROM THE FILE NAME(LMA_TestExecution_Report.html)
+
+09:30:55.623 INFO  accelarators.Base -getFileFormat -SUCCESSFULLY RETRIEVED THE FORMAT OF THE FILE
+09:30:55.624 INFO  accelarators.Base -fileFormatIs -INTENDED TO CHECK IF THE FILE BELONGS TO THE GIVEN FORMAT
+09:30:55.624 INFO  accelarators.Base -fileFormatIs -EXPECTED AND ACTUAL FILE FORMATS ARE THE SAME
+09:30:55.624 INFO  accelarators.Base -fileFormatIs -SUCCESSFULLY CHECKED IF THE FILE BELONGS TO THE GIVEN FORMAT
+09:30:55.625 INFO  utilities.Report -createInstanceOfHTMLReport -INTEND TO CREATE AN INSTANCE OF HTML REPORT WITH NAME
+09:30:55.728 INFO  utilities.Report -createInstanceOfHTMLReport -SUCCESSFULLY CREATED AN INSTANCE OF HTML REPORT WITH NAME(LMA_TestExecution_Report.html)
+09:30:55.728 INFO  utilities.Report -appendToExistingReport -INTED TO ADD THE CONTENTS TO EXTENT REPORT BASED ON THE APPEND STATUS
+09:30:55.729 INFO  utilities.Report -appendToExistingReport -CONTENTS ARE ADDED TO EXTENT REPORT BASED ON THE APPEND STATUS(false)
+09:30:55.729 INFO  utilities.Report -setHTMLReportName -INTEND TO SET A NAME FOR THE HTML REPORT 
+09:30:55.729 INFO  utilities.Report -setHTMLReportName -HTML REPORT NAME(Test Case Summary) WAS SET SUCCESSFULLY
+09:30:55.730 INFO  utilities.Report -setHTMLReportTheme -INTEND TO SET A THEME FOR THE HTML REPORT 
+09:30:55.731 INFO  utilities.Report -setHTMLReportTheme -HTML REPORT THEME WAS SET SUCCESSFULLY
+09:30:55.731 INFO  utilities.Report -initializeHTML -SUCCESSFULLY INITIALIZED AN HTML REPORT(LMA_TestExecution_Report.html)
+09:30:55.731 INFO  utilities.Report -createInstanceOfExtentReport -INTEND TO CREATE AN INSTANCE OF EXTENT REPORT
+09:30:55.739 INFO  utilities.Report -createInstanceOfExtentReport -SUCCESSFULLY CREATED AN INSTANCE OF EXTENT REPORT
+09:30:55.740 INFO  utilities.Report -attachHTMLReport -INTEND TO ATTACH HTML REPORT TO EXTENT REPORT
+09:30:55.906 INFO  utilities.Report -attachHTMLReport -SUCCESSFULLY ATTACHED HTML REPORT TO EXTENT REPORT
+09:30:55.906 INFO  utilities.Report -initialize -SUCCESSFULLY CREATED AN INSTANCE OF EXTENT REPORT WITH NAME(LMA_TestExecution_Report.html) AND APPEND STATUS(false)
+09:30:55.907 INFO  utilities.Report -recordSystemInfo -INTEND TO ADD SYSTEM INFORMATION IN EXTENT REPORT
+09:30:55.909 INFO  utilities.Report -recordSystemInfo -SUCCESSFULLY ADDED SYSTEM INFORMATION(Operating System : Windows 7 - 64 bit) IN EXTENT REPORT
+09:30:55.909 INFO  utilities.Report -recordSystemInfo -INTEND TO ADD SYSTEM INFORMATION IN EXTENT REPORT
+09:30:55.909 INFO  utilities.Report -recordSystemInfo -SUCCESSFULLY ADDED SYSTEM INFORMATION(Java : Java 1.8) IN EXTENT REPORT
+09:30:55.909 INFO  utilities.Report -recordSystemInfo -INTEND TO ADD SYSTEM INFORMATION IN EXTENT REPORT
+09:30:55.909 INFO  utilities.Report -recordSystemInfo -SUCCESSFULLY ADDED SYSTEM INFORMATION(Selenium Version : Selenium 3.3.4) IN EXTENT REPORT
+09:30:55.910 INFO  accelarators.Base -setup -BEFORE CLASS EXECUTED SUCCESSFULLY
+09:30:55.927 INFO  testScripts.LmaTestCase -AddCounterParty -METHOD(AddCounterParty) EXECUTION STARTED SUCCESSFULLY
+09:30:55.928 INFO  utilities.Report -makeTestCaseEntry -INTEND TO CREATE AN INSTANCE OF TEST CASE WITH NAME IN EXTENT REPORT
+09:30:55.928 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+09:30:55.928 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+09:30:55.929 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+09:30:55.934 INFO  utilities.Report -makeTestCaseEntry -SUCCESSFULY CREATED AN INSTANCE OF TEST CASE WITH NAME(LMA_POC_Automation) IN EXTENT REPORT
+09:30:55.934 INFO  utilities.Report -assignCategoryToTestCase -INTEND TO ASSIGN CATAGORY TO A TEST CASE IN EXTENT REPORT
+09:30:55.943 INFO  utilities.Report -assignCategoryToTestCase -SUCCESSFULY ASSIGNED THE CATAGORY(TC1) TO A TEST CASE IN EXTENT REPORT
+09:30:55.944 INFO  pageObjects.LmaWorkFlow -LaunchApplication -WORKFLOW(newTrackerListingProcess) EXECUTION STARTED SUCCESSFULLY
+09:30:56.027 INFO  pageObjects.LmaCommonPage -initiateBrowser -METHOD(initiateBrowser) EXECUTION STARTED SUCCESSFULLY
+09:30:59.643 ERROR pageObjects.LmaCommonPage -initiateBrowser -session not created: This version of ChromeDriver only supports Chrome version 75
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'LAPTOP-SA79HMC3', ip: '172.28.172.121', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x01157DF3+1474035]
+	Ordinal0 [0x010D07D1+919505]
+	Ordinal0 [0x0106CB43+510787]
+	Ordinal0 [0x01001B0F+72463]
+	Ordinal0 [0x00FFE3F3+58355]
+	Ordinal0 [0x01020CE4+199908]
+	Ordinal0 [0x0102069D+198301]
+	Ordinal0 [0x0101EECB+192203]
+	Ordinal0 [0x01005FF6+90102]
+	Ordinal0 [0x0100765A+95834]
+	Ordinal0 [0x01007554+95572]
+	GetHandleVerifier [0x012B231C+1249612]
+	GetHandleVerifier [0x01201575+525221]
+	GetHandleVerifier [0x01201310+524608]
+	Ordinal0 [0x01165D28+1531176]
+	GetHandleVerifier [0x01201D4A+527226]
+	Ordinal0 [0x010E75F6+1013238]
+	Ordinal0 [0x010E746F+1012847]
+	Ordinal0 [0x010F365B+1062491]
+	Ordinal0 [0x010F379F+1062815]
+	Ordinal0 [0x010F2745+1058629]
+	BaseThreadInitThunk [0x77528494+36]
+	RtlAreBitsSet [0x77D441C8+136]
+	RtlAreBitsSet [0x77D44198+88]
+
+09:30:59.643 INFO  pageObjects.LmaCommonPage -initiateBrowser -METHOD(initiateBrowser) EXECUTED SUCCESSFULLY
+09:30:59.643 ERROR pageObjects.LmaWorkFlow -LaunchApplication -null
+09:30:59.644 INFO  utilities.Report -logTestCaseStatus -INTEND TO LOG TEST CASE STATUS WITH DESCRIPTION IN EXTENT REPORT
+09:30:59.644 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+09:30:59.644 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+09:30:59.645 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+09:30:59.645 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+09:30:59.645 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+09:30:59.645 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+09:30:59.652 INFO  utilities.Report -logTestCaseStatus -SUCCESSFULY LOGED THE STATUS(FAIL) WITH DESCRIPTION(<font color=red><b>IU Is Not logged in Successfully</b></font><br />null<br />) IN EXTENT REPORT
+09:30:59.652 ERROR testScripts.LmaTestCase -AddCounterParty -UNABLE TO INITIATE THE login PROCESS 
+null
+
+09:30:59.656 INFO  testScripts.LmaTestCase -afterExecutionOfEachTest -AFTER METHOD EXECUTION STARTED SUCCESSFULLY
+09:30:59.657 INFO  accelarators.ActionDriver -screenShot -METHOD(screenShot) EXECUTION STARTED SUCCESSFULLY
+09:30:59.657 ERROR testScripts.LmaTestCase -afterExecutionOfEachTest -null
+09:30:59.658 INFO  utilities.Report -logTestCaseStatus -INTEND TO LOG TEST CASE STATUS WITH DESCRIPTION IN EXTENT REPORT
+09:30:59.658 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+09:30:59.658 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+09:30:59.659 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+09:30:59.659 INFO  accelarators.Base -notEmpty -INTENDED TO CHECK IF THE STRING IS EMPTY
+09:30:59.659 INFO  accelarators.Base -notEmpty -STRING IS NOT EMPTY
+09:30:59.659 INFO  accelarators.Base -notEmpty -SUCCESSFULLY CHECKED IF THE STRING IS EMPTY
+09:30:59.661 INFO  utilities.Report -logTestCaseStatus -SUCCESSFULY LOGED THE STATUS(FAIL) WITH DESCRIPTION(<font color=red><b>After Method Is Not Successful</b></font><br />null<br />) IN EXTENT REPORT
+09:30:59.666 INFO  accelarators.Base -close -Start of Executing AfterClass method name: close() 
+09:30:59.667 INFO  accelarators.Base -close -End of Executing after class stuff
+09:30:59.667 INFO  accelarators.Base -close -End of Executing AfterClass method name: close() 
